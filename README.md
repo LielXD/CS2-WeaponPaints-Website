@@ -2,7 +2,7 @@
 Website i've made for my cs2 server for the plugin cs2-weaponpaints and wanted to share this with the community,<br>
 please share with me your thoughts.
 
-Demo website:
+Demo website:<br>
 https://skins.cs2.lielxd.com
 
 *******
