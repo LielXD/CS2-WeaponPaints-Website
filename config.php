@@ -29,11 +29,11 @@ if(session_status() != PHP_SESSION_ACTIVE) {
     session_start();
 }
 
-$dirPath = $_SERVER['DOCUMENT_ROOT'].'/CS2SkinsSite/';
-if(file_exists($dirPath."translation/$Website_Translate.json")) {
-    $translations = json_decode(file_get_contents($dirPath."translation/$Website_Translate.json"));
-}else if(file_exists($dirPath."translation/en.json")) {
-    $translations = json_decode(file_get_contents($dirPath."translation/en.json"));
+$dirPath = $_SERVER['DOCUMENT_ROOT'];
+if(file_exists($dirPath."/translation/$Website_Translate.json")) {
+    $translations = json_decode(file_get_contents($dirPath."/translation/$Website_Translate.json"));
+}else if(file_exists($dirPath."/translation/en.json")) {
+    $translations = json_decode(file_get_contents($dirPath."/translation/en.json"));
 }else {
     echo "No translations have found<br>contact support.";
     die;
