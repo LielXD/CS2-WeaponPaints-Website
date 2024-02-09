@@ -33,6 +33,7 @@ h1:hover {
 h1 a {
     background: none;
     text-decoration: none;
+    transition: .5s;
 }
 
 h1 a:hover,
