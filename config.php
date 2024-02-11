@@ -2,7 +2,7 @@
 
 // Choose your translate file name located in translation/filename.json
 // You can add your own translation.
-$Website_Translate = 'en';
+$Website_Translate = 'zh-CN';
 
 // You can choose your own theme color
 // false/empty - will use the default color.
