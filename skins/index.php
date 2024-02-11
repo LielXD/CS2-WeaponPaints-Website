@@ -39,7 +39,7 @@
             $state->execute([$_SESSION['steamid'], $_POST['defindex'], $_POST['paint'], $_POST['wear'], $_POST['seed'],$_SESSION['steamid'], $_POST['defindex']]);
         }
 
-        if(str_contains($_POST['weapon_name'], 'knife') || $_POST['weapon_name'] == 'weapon_bayonet') {
+        if(strpos($_POST['weapon_name'], 'knife') != false || $_POST['weapon_name'] == 'weapon_bayonet') {
             $state = $pdo->prepare('SELECT * FROM `wp_player_knife` WHERE `steamid` = ?');
             $state->execute([$_SESSION['steamid']]);
 
@@ -309,7 +309,7 @@ if(!isset($_POST['weapon'])) {
 <?php
 }else {
 
-    if(str_contains($_POST['weapon'], 'knife')) {
+    if(strpos($_POST['weapon'], 'knife') != false) {
         $state = $pdo->prepare('SELECT `knife` FROM `wp_player_knife` WHERE `steamid` = ?');
         $state->execute([$_SESSION['steamid']]);
     
