@@ -58,6 +58,17 @@ document.addEventListener('click', function(e) {
         case 'exit_fullscreen':
             ToggleModal();
             break;
+        case 'category':
+            if(e.target.classList.contains('selected')) {
+                alert(e.target.getAttribute('data-text') || 'This category is already selected!');
+                return;
+            }
+
+            const category = e.target.getAttribute('data-category');
+            SendFormPost([
+                ['category', category]
+            ]);
+            break;
     }
 });
 

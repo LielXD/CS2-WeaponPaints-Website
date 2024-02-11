@@ -4,6 +4,9 @@
 // You can add your own translation.
 $Website_Translate = 'en';
 
+// Enable this if you want categories else it will display all weapons.
+$Website_UseCategories = true;
+
 // You can choose your own theme color
 // false/empty - will use the default color.
 // any html acceptable color - will display that color.
@@ -19,7 +22,7 @@ $DatabaseInfo = [
     'database' => '',
     'username' => '',
     'password' => '',
-    'port' => 3306
+    'port' => '3306'
 ];
 
 // -----------------

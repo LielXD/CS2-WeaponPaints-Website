@@ -19,10 +19,27 @@
     },
     "skins": {
         "choose_weapon": "בחר נשק",
+        "categories": {
+            "knifes": "סכינים",
+            "pistols": "אקדחים",
+            "rifles": "נשקים",
+            "smg": "תת מקלע",
+            "machine_guns": "מקלעים",
+            "sniper_rifles": "צלפים",
+            "shotguns": "שוטגאנים",
+            "selected_category": "!הקטגוריה כבר נבחרה"
+        },
         "selected_weapon": {
             "weapon_selected_label": "הנשק שנבחר",
             "choose_weapon_button": "בחר נשק",
-            "wear": "בלאי הנשק",
+            "wear": {
+                "label": "בלאי הנשק",
+                "factory_new": "חדש מהמפעל",
+                "minimal_wear": "כמעט חדש",
+                "field_tested": "משומש",
+                "well_worn": "ישן",
+                "battle_scarred": "מאוד ישן"
+            },
             "seed": "מיקום הסקין",
             "select_skin_label": "בחר סקין",
             "already_equiped_message": "כבר בחרת בסקין זה."

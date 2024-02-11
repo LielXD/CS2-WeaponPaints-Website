@@ -14,4 +14,8 @@ for any bugs post an issue here at the github page and I will try to help you as
 *******
 It's totally free and credit would be appreciated. :)
 *******
-Minimum PHP version is 8.0!
+* v1.2.5
+  * supports all PHP versions!
+
+* all versions before v1.2.5
+  * Minimum PHP version is 8.0!
