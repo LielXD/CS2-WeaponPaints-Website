@@ -20,12 +20,12 @@
     "skins": {
         "choose_weapon": "Escolha sua arma",
         "categories": {
-            "knifes": "Knifes",
+            "knifes": "Knives",
             "pistols": "Pistols",
             "rifles": "Rifles",
-            "smg": "SMG",
+            "smg": "SMGs",
             "machine_guns": "Machine Guns",
-            "sniper_rifles": "Sniper rifles",
+            "sniper_rifles": "Sniper Rifles",
             "shotguns": "Shotguns",
             "selected_category": "Esta categoria já está selecionada!"
         },
@@ -41,7 +41,7 @@
                 "battle_scarred": "Battle Scarred"
             },
             "seed": "Seed",
-            "select_skin_label": "Selecione a skin",
+            "select_skin_label": "Escolha sua skin",
             "already_equiped_message": "Esta skin já está equipada!"
         },
         "footer": {
