@@ -115,3 +115,15 @@ function SendFormPost(data) {
     document.body.append(form);
     form.submit();
 }
+
+window.onload = function() {
+    let card = document.querySelector('.card');
+    if(getComputedStyle(card).backgroundColor == 'rgba(0, 0, 0, 0)') {
+        document.body.style.setProperty('--card-color', 'var(--main-color)');
+    }
+
+    let selected = document.querySelector('.selected');
+    if(selected && getComputedStyle(selected).backgroundColor == 'rgba(0, 0, 0, 0)') {
+        document.body.style.setProperty('--card-selected', '#111');
+    }
+}
