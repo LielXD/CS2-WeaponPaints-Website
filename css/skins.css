@@ -4,11 +4,6 @@ body {
     flex-direction: column;
 }
 
-:root {
-    --card-color: color-mix(in srgb, gray, var(--main-color));
-    --card-selected: color-mix(in srgb, var(--main-color), black 20%);
-}
-
 img {
     pointer-events: none;
     user-select: none;
@@ -94,7 +89,7 @@ footer a svg {
     fill: white;
     border-radius: 5px;
     cursor: pointer;
-    background: var(--card-color);
+    background: var(--card-color, color-mix(in srgb, gray, var(--main-color)));
     outline: 2px dashed transparent;
     outline-offset: 5px;
     transition: .3s;
@@ -310,7 +305,7 @@ footer a svg {
     width: 180px;
     height: 250px;
     cursor: pointer;
-    background: var(--card-color);
+    background: var(--card-color, color-mix(in srgb, gray, var(--main-color)));
     outline: 2px dashed transparent;
     outline-offset: 10px;
     transition: .3s;
@@ -352,7 +347,7 @@ footer a svg {
 }
 
 .selected {
-    background: var(--card-selected) !important;
+    background: var(--card-selected, color-mix(in srgb, var(--main-color), black 20%)) !important;
 }
 .selected:hover,
 .selected:focus-visible {
