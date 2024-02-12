@@ -9,6 +9,10 @@ $Website_Translate = 'en';
 // Example: skins.cs2.lielxd.com/cs2/ | then we need here cs2 ↓
 $Website_Subfolder = '';
 
+// Redirect to website after steam authorized
+// You can leave it empty and this will redirect to website authorized from.
+$Website_Redirect = '';
+
 // Enable this if you want categories else it will display all weapons.
 $Website_UseCategories = true;
 
