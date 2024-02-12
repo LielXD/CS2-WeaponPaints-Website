@@ -18,8 +18,12 @@
     }
 
     require 'openid.php';
-    $openid = new LightOpenID($_SERVER['SERVER_NAME']);
 
+    if(!isset($Website_Redirect) || empty($Website_Redirect)) {
+        $Website_Redirect = $_SERVER['SERVER_NAME'];
+    }
+
+    $openid = new LightOpenID($Website_Redirect);
     if(!$openid->mode) {
         $openid->identity = 'https://steamcommunity.com/openid';
         header('Location: ' . $openid->authUrl());
