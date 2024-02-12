@@ -4,6 +4,11 @@
 // You can add your own translation.
 $Website_Translate = 'en';
 
+// If you store your website on a subfolder domain,
+// Leave empty if using the domain as normal.
+// Example: skins.cs2.lielxd.com/cs2/ | then we need here cs2 ↓
+$Website_Subfolder = '';
+
 // Enable this if you want categories else it will display all weapons.
 $Website_UseCategories = true;
 
@@ -32,7 +37,7 @@ if(session_status() != PHP_SESSION_ACTIVE) {
     session_start();
 }
 
-$dirPath = $_SERVER['DOCUMENT_ROOT'];
+$dirPath = $_SERVER['DOCUMENT_ROOT'].'/'.$Website_Subfolder;
 if(file_exists($dirPath."/translation/$Website_Translate.json")) {
     $translations = json_decode(file_get_contents($dirPath."/translation/$Website_Translate.json"));
 }else if(file_exists($dirPath."/translation/en.json")) {
