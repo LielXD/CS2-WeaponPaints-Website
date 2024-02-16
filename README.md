@@ -3,7 +3,7 @@ Website i've made for my cs2 server for the plugin cs2-weaponpaints and wanted t
 please share with me your thoughts.
 
 Demo website:<br>
-https://skins.cs2.lielxd.com
+https://cs2.lielxd.com/CS2-WeaponPaints/
 
 *******
 Easy to configure, i've made it very easy to customize the website as you like.
