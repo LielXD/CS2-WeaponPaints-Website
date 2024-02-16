@@ -132,7 +132,7 @@ footer a svg {
     aspect-ratio: 1/1;
     bottom: 100%;
     left: 50%;
-    transform: rotate(45deg) translate(-50% 50%);
+    transform: translate(-50%, 50%) rotate(45deg);
     background: inherit;
 }
 .categories h2 {
