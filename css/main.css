@@ -115,11 +115,11 @@ a:focus-visible {
 
 @keyframes slideIn {
     from {
-        translate: 0 -3%;
+        transform: translate(0, -3%);
         opacity: 0;
     }
     to {
-        translate: 0 0;
+        transform: translate(0, 0);
         opacity: 1;
     }
 }
