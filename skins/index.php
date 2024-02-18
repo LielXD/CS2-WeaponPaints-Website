@@ -34,7 +34,7 @@
     }
 
     if(isset($_POST['defindex']) && isset($_POST['paint']) && isset($_POST['wear']) && isset($_POST['seed']) && isset($_POST['weapon_name'])) {
-        if((string)strpos($_POST['weapon_name'], 'gloves') == 0 || strpos($_POST['weapon_name'], 'gloves') != false) {
+        if(strpos($_POST['weapon_name'], 'gloves') !== false) {
             if($_POST['weapon_name'] == 'gloves_default') {
                 $state = $pdo->prepare('DELETE FROM `wp_player_gloves` WHERE `steamid` = ?');
                 $state->execute([$_SESSION['steamid']]);
@@ -75,7 +75,7 @@
                 $state->execute([$_POST['defindex'], $_POST['paint'], $_POST['wear'], $_POST['seed'],$_SESSION['steamid'], $_POST['defindex']]);
             }
     
-            if(strpos($_POST['weapon_name'], 'knife') != false || $_POST['weapon_name'] == 'weapon_bayonet') {
+            if(strpos($_POST['weapon_name'], 'knife') !== false || $_POST['weapon_name'] == 'weapon_bayonet') {
                 $state = $pdo->prepare('SELECT * FROM `wp_player_knife` WHERE `steamid` = ?');
                 $state->execute([$_SESSION['steamid']]);
     
@@ -408,7 +408,7 @@ if(!isset($_POST['weapon'])) {
 <?php
 }else {
 
-    if($Website_UseWeaponPaints && strpos($_POST['weapon'], 'knife') != false) {
+    if($Website_UseWeaponPaints && strpos($_POST['weapon'], 'knife') !== false) {
         $state = $pdo->prepare('SELECT `knife` FROM `wp_player_knife` WHERE `steamid` = ?');
         $state->execute([$_SESSION['steamid']]);
     
@@ -422,7 +422,7 @@ if(!isset($_POST['weapon'])) {
     $currentWeapon = false;
 
     $weapon_skins = [];
-    if((string)strpos($_POST['weapon'], 'gloves') == 0 || strpos($_POST['weapon'], 'gloves') != false) {
+    if(strpos($_POST['weapon'], 'gloves') !== false) {
         foreach($gloves as $glove) {
             if($glove->glove_collection == $_POST['weapon']) {
                 array_push($weapon_skins, $glove);
@@ -456,7 +456,7 @@ if(!isset($_POST['weapon'])) {
     $weapon_seed = 0;
 
     if(!empty($player_skin)) {
-        if((string)strpos($_POST['weapon'], 'gloves') == 0 || strpos($_POST['weapon'], 'gloves') != false) {
+        if(strpos($_POST['weapon'], 'gloves') !== false) {
             foreach($weapon_skins as $weapon) {
                 if($player_skin['model_idx'] == $weapon->glove_model && $player_skin['weapon_paint_id'] == $weapon->paint) {
                     $currentWeapon = $weapon;
@@ -519,7 +519,7 @@ if(!isset($_POST['weapon'])) {
             <ul>
                 <?php
                 foreach($weapon_skins as $weapon) {
-                    if((string)strpos($_POST['weapon'], 'gloves') == 0 || strpos($_POST['weapon'], 'gloves') != false) {
+                    if(strpos($_POST['weapon'], 'gloves') !== false) {
                         if(empty($player_skin) && $weapon->glove_collection == 'gloves_default' || !empty($player_skin) && $weapon->paint == $player_skin['weapon_paint_id']) {
                             echo "<li>
                                 <button class='card selected' data-action='weapon_change' data-weapon='$weapon->glove_collection' data-defindex='$weapon->glove_model' data-paint='$weapon->paint'>
