@@ -7,12 +7,13 @@
         "unauthorized": "Não tens permissão para estar aqui.",
         "notfound": "Essa página não foi possível ser encontrada.",
         "serverinternal": "Ocorreu um erro interno no servidor que impediu de obter o conteúdo.",
+        "use_plugins": "Entre em contato com o proprietário do site. Você deve usar pelo menos um plugin para usar o site.",
         "button": "Voltar ao website"
     },
     "login": {
         "header": "Counter Strike 2 Server - Entra agora:",
         "title": "CS2.LIELXD.COM",
-        "title_link": "steam://connect/0.0.0.0:27015?appid=730",
+        "title_link": "steam://connect/34.165.48.66:27015?appid=730",
         "title_hover": "Entrar no servidor",
         "footer": "Por favor, autentique-se com a Steam para continuar.",
         "button": "Login com Steam"
@@ -27,7 +28,7 @@
             "machine_guns": "Machine Guns",
             "sniper_rifles": "Sniper rifles",
             "shotguns": "Shotguns",
-            "selected_category": "Essa categoria já está selecionada!"
+            "gloves": "Luvas"
         },
         "selected_weapon": {
             "weapon_selected_label": "Arma escolhida",

@@ -7,6 +7,7 @@
         "unauthorized": "אין לך גישה לכאן.",
         "notfound": "הדף המבוקש אינו נמצא באתר זה.",
         "serverinternal": "שגיאת שרת אנא צור קשר עם צוות האתר.",
+        "use_plugins": "אנא דווח לצוות האתר, האתר אינו יכול לפעול בלי אחד מהפלאגינים מופעל.",
         "button": "בחזרה לאתר"
     },
     "login": {
@@ -27,7 +28,7 @@
             "machine_guns": "מקלעים",
             "sniper_rifles": "צלפים",
             "shotguns": "שוטגאנים",
-            "selected_category": "!הקטגוריה כבר נבחרה"
+            "gloves": "כפפות"
         },
         "selected_weapon": {
             "weapon_selected_label": "הנשק שנבחר",

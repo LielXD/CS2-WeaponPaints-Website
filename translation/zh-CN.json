@@ -7,6 +7,7 @@
         "unauthorized": "未经授权的访问",
         "notfound": "404~您所查找的页面不存在！",
         "serverinternal": "服务器遇到了一个意外的情况，阻止了它完成请求。",
+        "use_plugins": "请联系网站所有者，您必须至少使用一个插件才能使用该网站.",
         "button": "返回网站"
     },
     "login": {
@@ -27,7 +28,7 @@
             "machine_guns": "机枪",
             "sniper_rifles": "狙击步枪",
             "shotguns": "霰弹枪",
-            "selected_category": "当前分类已被选择！"
+            "gloves": "手套"
         },
         "selected_weapon": {
             "weapon_selected_label": "已选择的武器",

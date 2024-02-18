@@ -7,6 +7,7 @@
         "unauthorized": "You don't have permission to be in here.",
         "notfound": "The requested page have not found on this server.",
         "serverinternal": "The server encountered an unexpected condition that prevented it from fulfilling the request.",
+        "use_plugins": "Contact website owner, You must use at least one plugin to use the website.",
         "button": "Return to Website"
     },
     "login": {
@@ -27,7 +28,7 @@
             "machine_guns": "Machine Guns",
             "sniper_rifles": "Sniper rifles",
             "shotguns": "Shotguns",
-            "selected_category": "This category is already selected!"
+            "gloves": "Gloves"
         },
         "selected_weapon": {
             "weapon_selected_label": "Selected weapon",
