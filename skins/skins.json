@@ -12074,11 +12074,11 @@
 		"image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/weapon_knife_kukri-735.png",
 		"paint_name": "★ Kukri Knife | Night Stripe"
 	},
-    {
-        "weapon_defindex":"none",
-        "weapon_name":"weapon_knife_default",
-        "paint":"0",
-        "image":"https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/weapon_knife.png",
-        "paint_name":"Default Knife | Default"
-    }
+	{
+		"weapon_defindex":"none",
+		"weapon_name":"weapon_knife_default",
+	        "paint":"0",
+	        "image":"https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/weapon_knife.png",
+	        "paint_name":"Default Knife | Default"
+	}
 ]
