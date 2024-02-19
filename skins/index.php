@@ -48,11 +48,11 @@
 
             $player_skin = $state->fetch();
             if(empty($player_skin)) {
-                $state = $pdo->prepare('INSERT INTO `wp_player_gloves`(`steamid`, `weapon_defindex`, `weapon_paint_id`, `weapon_wear`, `weapon_seed`, `model_idx`) VALUES(?, 1000, ?, ?, ?, ?)');
-                $state->execute([$_SESSION['steamid'], $_POST['paint'], $_POST['wear'], $_POST['seed'], $_POST['defindex']]);
+                $state = $pdo->prepare('INSERT INTO `wp_player_gloves`(`steamid`, `weapon_defindex`, `paint`) VALUES(?, ?, ?)');
+                $state->execute([$_SESSION['steamid'], $_POST['defindex'], $_POST['paint']]);
             }else {
-                $state = $pdo->prepare('UPDATE `wp_player_gloves` SET `weapon_paint_id` = ?, `weapon_wear` = ?, `weapon_seed` = ?, `model_idx` = ? WHERE `steamid` = ?');
-                $state->execute([$_POST['paint'], $_POST['wear'], $_POST['seed'], $_POST['defindex'], $_SESSION['steamid']]);
+                $state = $pdo->prepare('UPDATE `wp_player_gloves` SET `paint` = ? WHERE `steamid` = ?');
+                $state->execute([$_POST['paint'], $_SESSION['steamid']]);
             }
         }else {
             if($_POST['weapon_name'] == 'weapon_knife_default') {
@@ -375,9 +375,9 @@ if(!isset($_POST['weapon'])) {
                                         <span>".explode('|', $glove->paint_name)[0]."</span>
                                     </button>
                                 </li>";
-                            }elseif(isset($player_equiped) && !empty($player_equiped) && $player_equiped['model_idx'] == $glove->glove_model) {
+                            }elseif(isset($player_equiped) && !empty($player_equiped) && $player_equiped['weapon_defindex'] == $glove->glove_model) {
                                 foreach($gloves as $glove_selected) {
-                                    if($glove_selected->glove_model == $player_equiped['model_idx'] && $glove_selected->paint == $player_equiped['weapon_paint_id']) {
+                                    if($glove_selected->glove_model == $player_equiped['model_idx'] && $glove_selected->paint == $player_equiped['paint']) {
                                         echo "<li>
                                             <button class='card selected' data-action='weapon_picked' data-weapon=".$glove_selected->glove_collection.">
                                                 <svg data-action='fullscreen' viewBox='0 0 32 32'><path d='M28,2h-6c-1.104,0-2,0.896-2,2s0.896,2,2,2h1.2l-4.6,4.601C18.28,10.921,18,11.344,18,12c0,1.094,0.859,2,2,2  c0.641,0,1.049-0.248,1.4-0.6L26,8.8V10c0,1.104,0.896,2,2,2s2-0.896,2-2V4C30,2.896,29.104,2,28,2z M12,18  c-0.641,0-1.049,0.248-1.4,0.6L6,23.2V22c0-1.104-0.896-2-2-2s-2,0.896-2,2v6c0,1.104,0.896,2,2,2h6c1.104,0,2-0.896,2-2  s-0.896-2-2-2H8.8l4.6-4.601C13.72,21.079,14,20.656,14,20C14,18.906,13.141,18,12,18z'/></svg>
@@ -458,7 +458,7 @@ if(!isset($_POST['weapon'])) {
     if(!empty($player_skin)) {
         if(strpos($_POST['weapon'], 'gloves') !== false) {
             foreach($weapon_skins as $weapon) {
-                if($player_skin['model_idx'] == $weapon->glove_model && $player_skin['weapon_paint_id'] == $weapon->paint) {
+                if($player_skin['weapon_defindex'] == $weapon->glove_model && $player_skin['paint'] == $weapon->paint) {
                     $currentWeapon = $weapon;
                     break;
                 }
@@ -471,18 +471,20 @@ if(!isset($_POST['weapon'])) {
                 }
             }
         }
-
-        $weapon_seed = $player_skin['weapon_seed'];
-        if($player_skin['weapon_wear'] >= 0 && $player_skin['weapon_wear'] <= 0.07) {
-            $weapon_wear[0] = 'selected';
-        }elseif($player_skin['weapon_wear'] > 0.07 && $player_skin['weapon_wear'] <= 0.15) {
-            $weapon_wear[1] = 'selected';
-        }elseif($player_skin['weapon_wear'] > 0.15 && $player_skin['weapon_wear'] <= 0.38) {
-            $weapon_wear[2] = 'selected';
-        }elseif($player_skin['weapon_wear'] > 0.38 && $player_skin['weapon_wear'] <= 0.45) {
-            $weapon_wear[3] = 'selected';
-        }else {
-            $weapon_wear[4] = 'selected';
+        
+        if($_SESSION['category'] !== 'gloves') {
+            $weapon_seed = $player_skin['weapon_seed'];
+            if($player_skin['weapon_wear'] >= 0 && $player_skin['weapon_wear'] <= 0.07) {
+                $weapon_wear[0] = 'selected';
+            }elseif($player_skin['weapon_wear'] > 0.07 && $player_skin['weapon_wear'] <= 0.15) {
+                $weapon_wear[1] = 'selected';
+            }elseif($player_skin['weapon_wear'] > 0.15 && $player_skin['weapon_wear'] <= 0.38) {
+                $weapon_wear[2] = 'selected';
+            }elseif($player_skin['weapon_wear'] > 0.38 && $player_skin['weapon_wear'] <= 0.45) {
+                $weapon_wear[3] = 'selected';
+            }else {
+                $weapon_wear[4] = 'selected';
+            }
         }
     }
 ?>
@@ -520,7 +522,7 @@ if(!isset($_POST['weapon'])) {
                 <?php
                 foreach($weapon_skins as $weapon) {
                     if(strpos($_POST['weapon'], 'gloves') !== false) {
-                        if(empty($player_skin) && $weapon->glove_collection == 'gloves_default' || !empty($player_skin) && $weapon->paint == $player_skin['weapon_paint_id']) {
+                        if(empty($player_skin) && $weapon->glove_collection == 'gloves_default' || !empty($player_skin) && $weapon->paint == $player_skin['paint']) {
                             echo "<li>
                                 <button class='card selected' data-action='weapon_change' data-weapon='$weapon->glove_collection' data-defindex='$weapon->glove_model' data-paint='$weapon->paint'>
                                     <svg data-action='fullscreen' viewBox='0 0 32 32'><path d='M28,2h-6c-1.104,0-2,0.896-2,2s0.896,2,2,2h1.2l-4.6,4.601C18.28,10.921,18,11.344,18,12c0,1.094,0.859,2,2,2  c0.641,0,1.049-0.248,1.4-0.6L26,8.8V10c0,1.104,0.896,2,2,2s2-0.896,2-2V4C30,2.896,29.104,2,28,2z M12,18  c-0.641,0-1.049,0.248-1.4,0.6L6,23.2V22c0-1.104-0.896-2-2-2s-2,0.896-2,2v6c0,1.104,0.896,2,2,2h6c1.104,0,2-0.896,2-2  s-0.896-2-2-2H8.8l4.6-4.601C13.72,21.079,14,20.656,14,20C14,18.906,13.141,18,12,18z'/></svg>
