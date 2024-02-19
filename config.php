@@ -4,12 +4,6 @@
 // You can add your own translation.
 $Website_Translate = 'en';
 
-// If you want to enable weapon skins only if you have this plugin: https://github.com/Nereziel/cs2-WeaponPaints
-$Website_UseWeaponPaints = true;
-
-// If you want to enable gloves only if you have this plugin: URL_GLOVES
-$Website_UseGloves = true;
-
 // If you store your website on a subfolder domain,
 // Leave empty if using the domain as normal.
 // Example: cs2.lielxd.com/cs2/ | then we need here cs2 ↓
