@@ -8,8 +8,8 @@ https://cs2.lielxd.com/
 *******
 Easy to configure, i've made it very easy to customize the website as you like.
 
-**Make sure to setup database and load the plugin first because the plugin generates the database tables!**
-link to the plugin:
+**Make sure to setup database and load the plugin first because the plugin generates the database tables!**<br>
+link to the plugin:<br>
 https://github.com/Nereziel/cs2-WeaponPaints
 
 **Please edit only config.php and add your own files to translation folder (if you want to).**
