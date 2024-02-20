@@ -348,6 +348,8 @@ footer a svg {
 
 .selected {
     background: var(--card-selected, color-mix(in srgb, var(--main-color), black 20%)) !important;
+    outline: none !important;
+    scale: 1 !important;
 }
 .selected:hover,
 .selected:focus-visible {
