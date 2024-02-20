@@ -1,0 +1,52 @@
+{
+    "website_name": "LielXD CS2 Server",
+    "invert_direction": false,
+    "error": {
+        "code": "Ocorreu um erro {{code}}!",
+        "message": "algo aconteceu.",
+        "unauthorized": "Você não tem permissão para estar aqui.",
+        "notfound": "A página solicitada não foi encontrada neste servidor.",
+        "serverinternal": "O servidor encontrou uma condição inesperada que o impediu de atender à solicitação.",
+        "button": "Voltar ao site"
+    },
+    "login": {
+        "header": "Counter Strike 2 Server - Conecte-se agora:",
+        "title": "CS2.LIELXD.COM",
+        "title_link": "steam://connect/34.165.48.66:27015?appid=730",
+        "title_hover": "Conecte-se ao servidor",
+        "footer": "faça login através da Steam para continuar.",
+        "button": "Entrar com a Steam"
+    },
+    "skins": {
+        "choose_weapon": "Escolha sua arma",
+        "categories": {
+            "knifes": "Knives",
+            "pistols": "Pistols",
+            "rifles": "Rifles",
+            "smg": "SMGs",
+            "machine_guns": "Machine Guns",
+            "sniper_rifles": "Sniper Rifles",
+            "shotguns": "Shotguns",
+            "gloves": "Luvas"
+        },
+        "selected_weapon": {
+            "weapon_selected_label": "Arma selecionada",
+            "choose_weapon_button": "Escolha uma arma diferente",
+            "wear": {
+                "label": "Wear",
+                "factory_new": "Factory New",
+                "minimal_wear": "Minimal Wear",
+                "field_tested": "Field Tested",
+                "well_worn": "Well Worn",
+                "battle_scarred": "Battle Scarred"
+            },
+            "seed": "Seed",
+            "select_skin_label": "Escolha sua skin",
+            "already_equiped_message": "Esta skin já está equipada!"
+        },
+        "footer": {
+            "signedin": "conectado como<br>{{name}}.",
+            "sign_out": "sair"
+        }
+    }
+}

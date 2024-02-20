@@ -1,0 +1,52 @@
+{
+    "website_name": "LielXD CS2 Server",
+    "invert_direction": true,
+    "error": {
+        "code": "שגיאה {{code}}!",
+        "message": "משהו קרה..",
+        "unauthorized": "אין לך גישה לכאן.",
+        "notfound": "הדף המבוקש אינו נמצא באתר זה.",
+        "serverinternal": "שגיאת שרת אנא צור קשר עם צוות האתר.",
+        "button": "בחזרה לאתר"
+    },
+    "login": {
+        "header": "שרת קונטר סטרייק 2 - היכנסו עכשיו",
+        "title": "CS2.LIELXD.COM",
+        "title_link": "steam://connect/34.165.48.66:27015?appid=730",
+        "title_hover": "היכנסו לשרת",
+        "footer": "בבקשה התחברו דרך Steam בכדי להמשיך.",
+        "button": "התחברות עם Steam"
+    },
+    "skins": {
+        "choose_weapon": "בחר נשק",
+        "categories": {
+            "knifes": "סכינים",
+            "pistols": "אקדחים",
+            "rifles": "נשקים",
+            "smg": "תת מקלע",
+            "machine_guns": "מקלעים",
+            "sniper_rifles": "צלפים",
+            "shotguns": "שוטגאנים",
+            "gloves": "כפפות"
+        },
+        "selected_weapon": {
+            "weapon_selected_label": "הנשק שנבחר",
+            "choose_weapon_button": "בחר נשק אחר",
+            "wear": {
+                "label": "בלאי הנשק",
+                "factory_new": "חדש מהמפעל",
+                "minimal_wear": "כמעט חדש",
+                "field_tested": "משומש",
+                "well_worn": "ישן",
+                "battle_scarred": "מאוד ישן"
+            },
+            "seed": "מיקום הסקין",
+            "select_skin_label": "בחר סקין",
+            "already_equiped_message": "כבר בחרת בסקין זה."
+        },
+        "footer": {
+            "signedin": "מחובר בתור<br>{{name}}.",
+            "sign_out": "התנתקות"
+        }
+    }
+}
