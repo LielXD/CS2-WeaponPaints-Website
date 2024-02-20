@@ -1,0 +1,52 @@
+{
+    "website_name": "LielXD CS2 Server",
+    "invert_direction": false,
+    "error": {
+        "code": "Произошла ошибка {{code}}!",
+        "message": "что-то пошло не так...",
+        "unauthorized": "У вас нет разрешения находиться здесь.",
+        "notfound": "Запрошенная страница не найдена.",
+        "serverinternal": "Сервер столкнулся с непредвиденной ошибкой, которое помешало ему выполнить запрос.",
+        "button": "Вернуться на веб-сайт"
+    },
+    "login": {
+        "header": "Counter Strike 2 Server - Подключайтесь сейчас:",
+        "title": "CS2.LIELXD.COM",
+        "title_link": "steam://connect/34.165.48.66:27015?appid=730",
+        "title_hover": "Подключитесь к серверу",
+        "footer": "пожалуйста, войдите в систему через steam, чтобы продолжить.",
+        "button": "Войти через Steam"
+    },
+    "skins": {
+        "choose_weapon": "Выберите себе оружие",
+        "categories": {
+            "knifes": "Ножи",
+            "pistols": "Пистолеты",
+            "rifles": "Винтовки",
+            "smg": "Smg",
+            "machine_guns": "Пулеметы",
+            "sniper_rifles": "Снайперские винтовки",
+            "shotguns": "Ружья",
+            "gloves": "Перчатки"
+        },
+        "selected_weapon": {
+            "weapon_selected_label": "Выбранное оружие",
+            "choose_weapon_button": "Выбрать другое оружие",
+            "wear": {
+                "label": "Wear",
+                "factory_new": "Factory New",
+                "minimal_wear": "Minimal Wear",
+                "field_tested": "Field Tested",
+                "well_worn": "Well Worn",
+                "battle_scarred": "Battle Scarred"
+            },
+            "seed": "Seed",
+            "select_skin_label": "Выберите скин",
+            "already_equiped_message": "Этот скин уже готов!"
+        },
+        "footer": {
+            "signedin": "Вы вошли как<br>{{name}}.",
+            "sign_out": "Выход"
+        }
+    }
+}
