@@ -469,13 +469,13 @@ if(!isset($_POST['weapon'])) {
             $weapon_seed = $player_skin['weapon_seed'];
         }
         if(isset($player_skin['weapon_wear'])) {
-            if($player_skin['weapon_wear'] >= 0 && $player_skin['weapon_wear'] <= 0.07) {
+            if($player_skin['weapon_wear'] >= 0 && $player_skin['weapon_wear'] < 0.07) {
                 $weapon_wear[0] = 'selected';
-            }elseif($player_skin['weapon_wear'] > 0.07 && $player_skin['weapon_wear'] <= 0.15) {
+            }elseif($player_skin['weapon_wear'] >= 0.07 && $player_skin['weapon_wear'] < 0.15) {
                 $weapon_wear[1] = 'selected';
-            }elseif($player_skin['weapon_wear'] > 0.15 && $player_skin['weapon_wear'] <= 0.38) {
+            }elseif($player_skin['weapon_wear'] >= 0.15 && $player_skin['weapon_wear'] < 0.38) {
                 $weapon_wear[2] = 'selected';
-            }elseif($player_skin['weapon_wear'] > 0.38 && $player_skin['weapon_wear'] <= 0.45) {
+            }elseif($player_skin['weapon_wear'] >= 0.38 && $player_skin['weapon_wear'] < 0.45) {
                 $weapon_wear[3] = 'selected';
             }else {
                 $weapon_wear[4] = 'selected';
