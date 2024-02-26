@@ -163,6 +163,30 @@ footer .settings button svg {
     height: 20px;
     transition: none;
 }
+footer .settings input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    outline: 1px solid var(--main-color);
+    outline-offset: 2px;
+    border-radius: 100%;
+
+}
+footer .settings input[type="radio"]:checked {
+    background: var(--main-color);
+}
+footer .settings input[type="color"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 25px;
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+}
 
 .categories {
     position: fixed;
