@@ -445,7 +445,7 @@ footer .settings input[type="color"] {
     outline: 2px dashed var(--main-color);
     scale: 1.1;
 }
-.card:active {
+.card:not(.ctAgent, .tAgent):active {
     background: var(--main-color);
 }
 .card svg {
@@ -554,6 +554,32 @@ footer .settings input[type="color"] {
 }
 #modalFullscreen svg line {
     pointer-events: none;
+}
+
+/* Agents */
+.tAgent {
+    background-image: url(https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/main/src/t_agent.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.ctAgent {
+    background-image: url(https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/main/src/ct_agent.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.ctAgent:hover,
+.ctAgent:focus-visible,
+.tAgent:hover,
+.tAgent:focus-visible {
+    box-shadow: 0 0 100px var(--main-color) inset;
 }
 
 @media (width <= 900px) {
