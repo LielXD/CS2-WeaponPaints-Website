@@ -27,11 +27,6 @@ document.addEventListener('click', function (e) {
             window.location.href = './';
             break;
         case 'weapon_change':
-            if (e.target.classList.contains('selected')) {
-                alert(e.target.parentElement.getAttribute('data-text') || 'This skin is already equiped!');
-                return;
-            }
-
             ToggleLoading();
 
             if (!e.target.getAttribute('data-defindex') || !e.target.getAttribute('data-paint')) {
@@ -57,6 +52,22 @@ document.addEventListener('click', function (e) {
                 ['paint', paint],
                 ['wear', wear],
                 ['seed', seed]
+            ]);
+            break;
+        case 'agent_picked':
+            let team = e.target.getAttribute('data-team');
+
+            SendFormPost([
+                ['weapon', team]
+            ]);
+            break;
+        case 'agent_change':
+            let agentTeam = e.target.getAttribute('data-team');
+            let agentModel = e.target.getAttribute('data-agent');
+
+            SendFormPost([
+                ['agentTeam', agentTeam],
+                ['agentModel', agentModel]
             ]);
             break;
         case 'fullscreen':

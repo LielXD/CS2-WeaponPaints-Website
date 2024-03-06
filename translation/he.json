@@ -29,7 +29,12 @@
             "machine_guns": "מקלעים",
             "sniper_rifles": "צלפים",
             "shotguns": "שוטגאנים",
-            "gloves": "כפפות"
+            "gloves": "כפפות",
+            "agents": {
+                "label": "דמויות",
+                "ct": "צבא",
+                "t": "טרוריסטים"
+            }
         },
         "selected_weapon": {
             "weapon_selected_label": "הנשק שנבחר",
@@ -43,8 +48,7 @@
                 "battle_scarred": "מאוד ישן"
             },
             "seed": "מיקום הסקין",
-            "select_skin_label": "בחר סקין",
-            "already_equiped_message": "כבר בחרת בסקין זה."
+            "select_skin_label": "בחר סקין"
         },
         "footer": {
             "signedin": "מחובר בתור<br>{{name}}.",

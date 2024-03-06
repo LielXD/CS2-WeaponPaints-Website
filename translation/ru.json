@@ -29,7 +29,12 @@
             "machine_guns": "Пулеметы",
             "sniper_rifles": "Снайперские винтовки",
             "shotguns": "Ружья",
-            "gloves": "Перчатки"
+            "gloves": "Перчатки",
+            "agents": {
+                "label": "Агенты",
+                "ct": "Контр-террорист",
+                "t": "Террорист"
+            }
         },
         "selected_weapon": {
             "weapon_selected_label": "Выбранное оружие",
@@ -43,8 +48,7 @@
                 "battle_scarred": "Battle Scarred"
             },
             "seed": "Seed",
-            "select_skin_label": "Выберите скин",
-            "already_equiped_message": "Этот скин уже готов!"
+            "select_skin_label": "Выберите скин"
         },
         "footer": {
             "signedin": "Вы вошли как<br>{{name}}.",

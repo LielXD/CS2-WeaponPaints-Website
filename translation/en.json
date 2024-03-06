@@ -29,7 +29,12 @@
             "machine_guns": "Machine Guns",
             "sniper_rifles": "Sniper rifles",
             "shotguns": "Shotguns",
-            "gloves": "Gloves"
+            "gloves": "Gloves",
+            "agents": {
+                "label": "Agents",
+                "ct": "Counter Terrorist",
+                "t": "Terrorist"
+            }
         },
         "selected_weapon": {
             "weapon_selected_label": "Selected weapon",
@@ -43,8 +48,7 @@
                 "battle_scarred": "Battle Scarred"
             },
             "seed": "Seed",
-            "select_skin_label": "Select skin",
-            "already_equiped_message": "This skin is already equiped!"
+            "select_skin_label": "Select skin"
         },
         "footer": {
             "signedin": "signed in as<br>{{name}}.",

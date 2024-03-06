@@ -29,7 +29,12 @@
             "machine_guns": "机枪",
             "sniper_rifles": "狙击步枪",
             "shotguns": "霰弹枪",
-            "gloves": "手套"
+            "gloves": "手套",
+            "agents": {
+                "label": "代理商",
+                "ct": "反恐",
+                "t": "恐怖分子"
+            }
         },
         "selected_weapon": {
             "weapon_selected_label": "已选择的武器",
@@ -43,8 +48,7 @@
                 "battle_scarred": "战痕累累"
             },
             "seed": "图案模板",
-            "select_skin_label": "选择皮肤",
-            "already_equiped_message": "该皮肤当前已被装备！"
+            "select_skin_label": "选择皮肤"
         },
         "footer": {
             "signedin": "当前登录账户：<br>{{name}}",
