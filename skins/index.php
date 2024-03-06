@@ -511,38 +511,6 @@ if(!isset($_POST['weapon'])) {
     $currentWeapon = false;
     $weapon_skins = [];
 
-    // if(GetWeaponType($_POST['weapon']) == 'gloves') {
-    //     foreach($gloves as $glove) {
-    //         if($glove->weapon_defindex == $_POST['weapon']) {
-    //             array_push($weapon_skins, $glove);
-    
-    //             $currentWeapon = $glove;
-    //             break;
-    //         }
-    //     }
-    // }else if(GetWeaponType($_POST['weapon']) == 'agents') {
-    //     foreach($agents as $agent) {
-    //         if($agent->team != $_POST['weapon']) {
-    //             continue;
-    //         }
-    //         if(isset($agentsType) && $agent->model == $agentsType || empty($agentsType) && $agent->model == 'default') {
-    //             $currentWeapon = $agent;
-    //             break;
-    //         }
-    //     }
-    // }else {
-    //     foreach($full_skins as $skin) {
-    //         if($skin->weapon_name == $_POST['weapon']) {
-    //             array_push($weapon_skins, $skin);
-    
-    //             if($skin->paint == 0) {
-    //                 $currentWeapon = $skin;
-    //                 break;
-    //             }
-    //         }
-    //     }
-    // }
-
     if(GetWeaponType($_POST['weapon']) == 'gloves') {
         foreach($gloves as $glove) {
             if($glove->weapon_defindex == $_POST['weapon']) {
@@ -681,7 +649,7 @@ if(!isset($_POST['weapon'])) {
                             }else {
                                 $dataWeapon = $weapon->weapon_name;
                             }
-                            echo "<li data-text='".$translations->skins->selected_weapon->already_equiped_message."'>
+                            echo "<li>
                                 <button class='card selected' data-action='weapon_change' data-weapon='$dataWeapon' data-defindex='$weapon->weapon_defindex' data-paint='$weapon->paint'>
                                     <svg data-action='fullscreen' viewBox='0 0 32 32'><path d='M28,2h-6c-1.104,0-2,0.896-2,2s0.896,2,2,2h1.2l-4.6,4.601C18.28,10.921,18,11.344,18,12c0,1.094,0.859,2,2,2  c0.641,0,1.049-0.248,1.4-0.6L26,8.8V10c0,1.104,0.896,2,2,2s2-0.896,2-2V4C30,2.896,29.104,2,28,2z M12,18  c-0.641,0-1.049,0.248-1.4,0.6L6,23.2V22c0-1.104-0.896-2-2-2s-2,0.896-2,2v6c0,1.104,0.896,2,2,2h6c1.104,0,2-0.896,2-2  s-0.896-2-2-2H8.8l4.6-4.601C13.72,21.079,14,20.656,14,20C14,18.906,13.141,18,12,18z'/></svg>
                                     <img src='$weapon->image' alt='$dataWeapon' loading='lazy'>
