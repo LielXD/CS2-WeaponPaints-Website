@@ -29,7 +29,12 @@
             "machine_guns": "Makineli Tüfeklerinizi",
             "sniper_rifles": "Keskin Nişancı Tüfeklerinizi",
             "shotguns": "Tüfeklerinizi",
-            "gloves": "Eldivenlerinizi"
+            "gloves": "Eldivenlerinizi",
+            "agents": {
+                "label": "Ajanlar",
+                "ct": "Counter Terrorist",
+                "t": "Terrorist"
+            }
         },
         "selected_weapon": {
             "weapon_selected_label": "Seçilen Silah",
@@ -43,8 +48,7 @@
                 "battle_scarred": "Savaş Harabesi"
             },
             "seed": "Seed",
-            "select_skin_label": "Skin seçin",
-            "already_equiped_message": "Bu Skin zaten kuşanılmış!"
+            "select_skin_label": "Skin seçin"
         },
         "footer": {
             "signedin": "{{name}}<br>Olarak giriş yaptınız.",
