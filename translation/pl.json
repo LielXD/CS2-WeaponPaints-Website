@@ -30,6 +30,11 @@
             "sniper_rifles": "Karabiny snajperskie",
             "shotguns": "Strzelby",
             "gloves": "Rękawiczki"
+            "agents": {
+                "label": "Agenci",
+                "ct": "Antyterroryści",
+                "t": "Terroryści"
+            }
         },
         "selected_weapon": {
             "weapon_selected_label": "Wybrana broń",
