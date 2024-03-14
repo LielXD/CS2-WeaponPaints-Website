@@ -34,7 +34,8 @@
                 "label": "Agent",
                 "ct": "Counter Terrorist",
                 "t": "Terrorist"
-            }
+            },
+            "mvp": "Musiqa to‘plami"
         },
         "selected_weapon": {
             "weapon_selected_label": "Tanlangan qurol",
