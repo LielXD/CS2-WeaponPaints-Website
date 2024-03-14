@@ -34,7 +34,8 @@
                 "label": "探员",
                 "ct": "反恐精英",
                 "t": "恐怖分子"
-            }
+            },
+            "mvp": "音乐盒"
         },
         "selected_weapon": {
             "weapon_selected_label": "已选择的皮肤",
