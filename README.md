@@ -20,7 +20,7 @@ for any bugs post an issue here at the github page and I will try to help you as
 *******
 It's totally free and credit would be appreciated. :)
 *******
-* v1.2.5
+* v1.2.5 and above
   * supports all PHP versions!
 
 * all versions before v1.2.5
