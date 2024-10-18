@@ -1,5 +1,5 @@
 [
-	{
+    {
 		"team": 2,
 		"image": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/main/src/agents/t_agent_default.png",
 		"model": "default",
@@ -118,6 +118,12 @@
 		"image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/agent-4736.png",
 		"model": "tm_professional/tm_professional_varf4",
 		"agent_name": "Sir Bloody Loudmouth Darryl | The Professionals"
+	},
+	{
+		"team": 2,
+		"image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/agent-4613.png",
+		"model": "tm_professional/tm_professional_varf5",
+		"agent_name": "Bloody Darryl The Strapped | The Professionals"
 	},
 	{
 		"team": 3,
