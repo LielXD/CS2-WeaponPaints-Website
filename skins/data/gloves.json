@@ -1,9 +1,15 @@
 [
-	{
+    {
 		"weapon_defindex": "gloves_default",
 		"paint": "0",
 		"image": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/main/src/gloves/default.png",
 		"paint_name": "Default Gloves | Default"
+	},
+	{
+		"weapon_defindex": 0,
+		"paint": "0",
+		"image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/default_gloves.png",
+		"paint_name": "Gloves | Default"
 	},
 	{
 		"weapon_defindex": 4725,
