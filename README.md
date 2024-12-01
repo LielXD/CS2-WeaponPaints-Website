@@ -1,7 +1,7 @@
 # CS2-WeaponPaints-Website
 
 ******
-Currently have no time to work on it, when i will have time i will continue this project.
+Currently have no time to work on it, when i will have time i will continue this project.<br>
 have some planning for the future, soon.
 ******
 
