@@ -1,4 +1,10 @@
 # CS2-WeaponPaints-Website
+
+******
+Currently have no time to work on it, when i will have time i will continue this project.
+have some planning for the future, soon.
+******
+
 Website i've made for my cs2 server for the plugin cs2-weaponpaints and wanted to share this with the community,<br>
 please share with me your thoughts.
 
