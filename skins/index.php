@@ -142,7 +142,10 @@
 
         $player_skin = $state->fetch();
         if(empty($player_skin)) {
-            $state = $pdo->prepare('INSERT INTO `wp_player_skins`(`steamid`, `weapon_defindex`, `weapon_paint_id`, `weapon_wear`, `weapon_seed`) VALUES(?, ?, ?, ?, ?)');
+            $state = $pdo->prepare('INSERT INTO `wp_player_skins`(`steamid`, `weapon_defindex`, `weapon_paint_id`, `weapon_wear`, `weapon_seed`, `weapon_team`) VALUES(?, ?, ?, ?, ?, 2)');
+            $state->execute([$_SESSION['steamid'], $_POST['defindex'], $_POST['paint'], $_POST['wear'], $_POST['seed']]);
+
+            $state = $pdo->prepare('INSERT INTO `wp_player_skins`(`steamid`, `weapon_defindex`, `weapon_paint_id`, `weapon_wear`, `weapon_seed`, `weapon_team`) VALUES(?, ?, ?, ?, ?, 3)');
             $state->execute([$_SESSION['steamid'], $_POST['defindex'], $_POST['paint'], $_POST['wear'], $_POST['seed']]);
         }else {
             $state = $pdo->prepare('UPDATE `wp_player_skins` SET `weapon_defindex`= ?, `weapon_paint_id` = ?, `weapon_wear` = ?, `weapon_seed` = ? WHERE `steamid` = ? AND `weapon_defindex`= ?');
@@ -157,7 +160,10 @@
                 $player_knife = $state->fetch();
         
                 if(empty($player_knife)) {
-                    $state = $pdo->prepare('INSERT INTO `wp_player_knife`(`steamid`, `knife`) VALUES(?, ?)');
+                    $state = $pdo->prepare('INSERT INTO `wp_player_knife`(`steamid`, `knife`, `weapon_team`) VALUES(?, ?, 2)');
+                    $state->execute([$_SESSION['steamid'], $_POST['weapon_name']]);
+
+                    $state = $pdo->prepare('INSERT INTO `wp_player_knife`(`steamid`, `knife`, `weapon_team`) VALUES(?, ?, 3)');
                     $state->execute([$_SESSION['steamid'], $_POST['weapon_name']]);
                 }else {
                     $state = $pdo->prepare('UPDATE `wp_player_knife` SET `knife` = ? WHERE `steamid` = ?');
@@ -171,7 +177,10 @@
                     $player_gloves = $state->fetch();
             
                     if(empty($player_gloves)) {
-                        $state = $pdo->prepare('INSERT INTO `wp_player_gloves`(`steamid`, `weapon_defindex`) VALUES(?, ?)');
+                        $state = $pdo->prepare('INSERT INTO `wp_player_gloves`(`steamid`, `weapon_defindex`, `weapon_team`) VALUES(?, ?, 2)');
+                        $state->execute([$_SESSION['steamid'], $_POST['defindex']]);
+
+                        $state = $pdo->prepare('INSERT INTO `wp_player_gloves`(`steamid`, `weapon_defindex`, `weapon_team`) VALUES(?, ?, 3)');
                         $state->execute([$_SESSION['steamid'], $_POST['defindex']]);
                     }else {
                         $state = $pdo->prepare('UPDATE `wp_player_gloves` SET `weapon_defindex` = ? WHERE `steamid` = ?');
@@ -236,7 +245,10 @@
             $mvpType = $state->fetch();
 
             if(!isset($mvpType) || empty($mvpType)) {
-                $state = $pdo->prepare('INSERT INTO `wp_player_music`(`steamid`, `music_id`) VALUES(?, ?)');
+                $state = $pdo->prepare('INSERT INTO `wp_player_music`(`steamid`, `music_id`, `weapon_team`) VALUES(?, ?, 2)');
+                $state->execute([$_SESSION['steamid'], $_POST['mvpId']]);
+
+                $state = $pdo->prepare('INSERT INTO `wp_player_music`(`steamid`, `music_id`, `weapon_team`) VALUES(?, ?, 3)');
                 $state->execute([$_SESSION['steamid'], $_POST['mvpId']]);
             }else {
                 $state = $pdo->prepare('UPDATE `wp_player_music` SET `music_id` = ? WHERE `steamid` = ?');
