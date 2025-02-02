@@ -1,0 +1,10 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ ./index.php?path=$1 [NC,L,QSA]
+
+ErrorDocument 403 /errorpage.php?errorcode=403
+ErrorDocument 404 /errorpage.php?errorcode=404
+ErrorDocument 500 /errorpage.php?errorcode=500
