@@ -2,6 +2,8 @@
 after a lot of effort with no time, finally a new version to the website `v2.0.0`,<br>
 with all the current features `weaponpaints` have to offer.
 
+### Please download the website from the releases section.
+
 ## Requirements
 * PHP.
 * Apache (or htaccess support).
