@@ -1,32 +1,55 @@
-# CS2-WeaponPaints-Website
+# CS2 WeaponPaints website with huge update.
+after a lot of effort with no time, finally a new version to the website `v2.0.0`,<br>
+with all the current features `weaponpaints` have to offer.
 
-******
-Currently have no time to work on it, when i will have time i will continue this project.<br>
-have some planning for the future, soon.
-******
+## Requirements
+* PHP.
+* Apache (or htaccess support).
 
-Website i've made for my cs2 server for the plugin cs2-weaponpaints and wanted to share this with the community,<br>
-please share with me your thoughts.
+## Updates
+* Recoded the whole website backend.
+* Changed the URL structure.
+* Removed ugly code from the config file.
+* The website will now recognize if using subfolder.
+* Better error handling, now it will display the errors instead of blank skins page.
+* Added skin team preview to pages of weapon/skin select.
+* Added custom page for customizing skins.
+  * Added team selection for skins.
+  * Added Nametag.
+  * Added Stattrak.
+  * Added Stickers.
+  * Added Keychains.
+  * 3D preview of the skin in real time.
 
-** To fix error of drivers please enable pdo_mysql **
+## Bugs
+if you found any bug don't hesitate to open issue here at the github repository.
+but please check old issues first to see if the bug is already discovered.
 
-Demo website:<br>
-https://cs2.lielxd.com/
+I have checked most of the textures of the 3D preview, but if you found any texture error let me know...
 
-*******
-Easy to configure, i've made it very easy to customize the website as you like.
+## To Do
+* Display Stickers & Keychain on the 3D preview.
+* Stickers & Keychain custom position.
+* Update rest of the language files (only English and Hebrew up to date).
+* Add models of characters (currently only weapons, knifes, gloves models exists).
 
-**Make sure to setup database and load the plugin first because the plugin generates the database tables!**<br>
-link to the plugin:<br>
-https://github.com/Nereziel/cs2-WeaponPaints
+would be happy if some of you can update the language files and send me, currently updated languages:
+English, Hebrew.
 
-**Please edit only config.php and add your own files to translation folder (if you want to).**
+## Donations
+any donation would be appreciated.<br>
+Skins trade link => https://steamcommunity.com/tradeoffer/new/?partner=1684190212&token=u_ofAuvN
+<br>
+Paypal => https://paypal.me/lielxd
 
-for any bugs post an issue here at the github page and I will try to help you as soon as I can.
-*******
-It's totally free and credit would be appreciated. :)
-*******
-* v1.2.5 and above
+## Preview Website
+link => https://cs2.lielxd.com/
+
+## Link to the plugin (big credit to them)
+link => https://github.com/Nereziel/cs2-WeaponPaints
+
+## php support
+* v1.2.5 - v2.0.0
   * supports all PHP versions!
 
 * all versions before v1.2.5
