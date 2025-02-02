@@ -1,0 +1,66 @@
+{
+    "website_name": "LielXD CS2 Server",
+    "invert_direction": false,
+    "error": {
+        "code": "Bir hata oluştu {{code}}!",
+        "message": "Bir şeyler oldu.",
+        "unauthorized": "Burada bulunma izniniz yok.",
+        "notfound": "İstenen sayfa bu sunucuda bulunamadı.",
+        "serverinternal": "Sunucu, isteği yerine getirmesini engelleyen beklenmeyen bir durumla karşılaştı.",
+        "button": "Web Sitesine Geri Dön"
+    },
+    "login": {
+        "header": "Counter Strike 2 Server - Połącz teraz:",
+        "titles": [
+            {"name": "CS2.LIELXD.COM", "hover": "Retake Sunucusuna Bağlan", "link": "steam://connect/34.165.48.66:27015?appid=730"},
+            {"name": "CS2.LIELXD.COM", "hover": "Surf Sunucusuna Bağlan", "link": "steam://connect/34.165.48.66:27016?appid=730"}
+        ],
+        "footer": "lütfen devam etmek için steam üzerinden giriş yapın.",
+        "button": "Steam ile Giriş Yap"
+    },
+    "skins": {
+        "choose_weapon": "{{label}} Seçin",
+        "choose_weapon_default": "Skin",
+        "categories": {
+            "knifes": "Bıçaklarınızı",
+            "pistols": "Tabancalarınızı",
+            "rifles": "Tüfeklerlerinizi",
+            "smg": "SMG'lerinizi",
+            "machine_guns": "Makineli Tüfeklerinizi",
+            "sniper_rifles": "Keskin Nişancı Tüfeklerinizi",
+            "shotguns": "Tüfeklerinizi",
+            "gloves": "Eldivenlerinizi",
+            "agents": {
+                "label": "Ajanlar",
+                "ct": "Counter Terrorist",
+                "t": "Terrorist"
+            }
+        },
+        "selected_weapon": {
+            "weapon_selected_label": "Seçilen Silah",
+            "choose_weapon_button": "Farklı bir silah seçin",
+            "wear": {
+                "label": "Skin Durumu",
+                "factory_new": "Fabrika Yeni",
+                "minimal_wear": "Minimal Kullanım",
+                "field_tested": "Saha Test Edilmiş",
+                "well_worn": "Aşırı Kullanılmış",
+                "battle_scarred": "Savaş Harabesi"
+            },
+            "seed": "Seed",
+            "select_skin_label": "Skin seçin"
+        },
+        "footer": {
+            "signedin": "{{name}}<br>Olarak giriş yaptınız.",
+            "sign_out": "Çıkış yap",
+            "settings": {
+                "language": "Dil",
+                "theme": {
+                    "label": "Tema",
+                    "custom": "Özel renk",
+                    "choose": "Renk Seçin"
+                }
+            }
+        }
+    }
+}

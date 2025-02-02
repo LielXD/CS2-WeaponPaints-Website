@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(45deg, black, var(--main-color));
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    height: 100%;
+    font-size: 50px;
+    color: white;
+}
+
+main p {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+main a {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+footer {
+    padding: 20px 0;
+    color: white;
+    width: 100%;
+    background: #111;
+}
+
+@media (width <= 900px) {
+    main {
+        font-size: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
+}

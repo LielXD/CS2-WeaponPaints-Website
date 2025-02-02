@@ -1,0 +1,656 @@
+[
+	{
+		"weapon_defindex": "gloves_default",
+		"paint": "default",
+		"image": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/main/src/gloves/default_t.png",
+		"paint_name": "Default Gloves | Default"
+	},
+	{
+	  "weapon_defindex": 4725,
+	  "paint": "10085",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/studded_brokenfang_gloves-10085.png",
+	  "paint_name": "★ Broken Fang Gloves | Jade",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/4725.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/4725/10085.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/4725/10085_metal.png"
+	},
+	{
+	  "weapon_defindex": 4725,
+	  "paint": "10086",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/studded_brokenfang_gloves-10086.png",
+	  "paint_name": "★ Broken Fang Gloves | Yellow-banded",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/4725.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/4725/10086.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/4725/10086_metal.png"
+	},
+	{
+	  "weapon_defindex": 4725,
+	  "paint": "10087",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/studded_brokenfang_gloves-10087.png",
+	  "paint_name": "★ Broken Fang Gloves | Needle Point",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/4725.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/4725/10087.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/4725/10087_metal.png"
+	},
+	{
+	  "weapon_defindex": 4725,
+	  "paint": "10088",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/studded_brokenfang_gloves-10088.png",
+	  "paint_name": "★ Broken Fang Gloves | Unhinged",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/4725.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/4725/10088.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/4725/10088_metal.png"
+	},
+	{
+	  "weapon_defindex": 5027,
+	  "paint": "10006",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/studded_bloodhound_gloves-10006.png",
+	  "paint_name": "★ Bloodhound Gloves | Charred",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5027.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5027/10006.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5027/10006_metal.png"
+	},
+	{
+	  "weapon_defindex": 5027,
+	  "paint": "10007",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/studded_bloodhound_gloves-10007.png",
+	  "paint_name": "★ Bloodhound Gloves | Snakebite",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5027.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5027/10007.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5027/10007_metal.png"
+	},
+	{
+	  "weapon_defindex": 5027,
+	  "paint": "10008",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/studded_bloodhound_gloves-10008.png",
+	  "paint_name": "★ Bloodhound Gloves | Bronzed",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5027.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5027/10008.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5027/10008_metal.png"
+	},
+	{
+	  "weapon_defindex": 5027,
+	  "paint": "10039",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/studded_bloodhound_gloves-10039.png",
+	  "paint_name": "★ Bloodhound Gloves | Guerrilla",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5027.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5027/10039.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5027/10039_metal.png"
+	},
+	{
+	  "weapon_defindex": 5030,
+	  "paint": "10018",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/sporty_gloves-10018.png",
+	  "paint_name": "★ Sport Gloves | Superconductor",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5030.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10018.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10018_metal.png"
+	},
+	{
+	  "weapon_defindex": 5030,
+	  "paint": "10019",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/sporty_gloves-10019.png",
+	  "paint_name": "★ Sport Gloves | Arid",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5030.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10019.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10019_metal.png"
+	},
+	{
+	  "weapon_defindex": 5030,
+	  "paint": "10037",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/sporty_gloves-10037.png",
+	  "paint_name": "★ Sport Gloves | Pandora's Box",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5030.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10037.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10037_metal.png"
+	},
+	{
+	  "weapon_defindex": 5030,
+	  "paint": "10038",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/sporty_gloves-10038.png",
+	  "paint_name": "★ Sport Gloves | Hedge Maze",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5030.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10038.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10038_metal.png"
+	},
+	{
+	  "weapon_defindex": 5030,
+	  "paint": "10045",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/sporty_gloves-10045.png",
+	  "paint_name": "★ Sport Gloves | Amphibious",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5030.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10045.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10045_metal.png"
+	},
+	{
+	  "weapon_defindex": 5030,
+	  "paint": "10046",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/sporty_gloves-10046.png",
+	  "paint_name": "★ Sport Gloves | Bronze Morph",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5030.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10046.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10046_metal.png"
+	},
+	{
+	  "weapon_defindex": 5030,
+	  "paint": "10047",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/sporty_gloves-10047.png",
+	  "paint_name": "★ Sport Gloves | Omega",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5030.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10047.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10047_metal.png"
+	},
+	{
+	  "weapon_defindex": 5030,
+	  "paint": "10048",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/sporty_gloves-10048.png",
+	  "paint_name": "★ Sport Gloves | Vice",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5030.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10048.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10048_metal.png"
+	},
+	{
+	  "weapon_defindex": 5030,
+	  "paint": "10073",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/sporty_gloves-10073.png",
+	  "paint_name": "★ Sport Gloves | Slingshot",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5030.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10073.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10073_metal.png"
+	},
+	{
+	  "weapon_defindex": 5030,
+	  "paint": "10074",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/sporty_gloves-10074.png",
+	  "paint_name": "★ Sport Gloves | Big Game",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5030.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10074.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10074_metal.png"
+	},
+	{
+	  "weapon_defindex": 5030,
+	  "paint": "10075",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/sporty_gloves-10075.png",
+	  "paint_name": "★ Sport Gloves | Scarlet Shamagh",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5030.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10075.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10075_metal.png"
+	},
+	{
+	  "weapon_defindex": 5030,
+	  "paint": "10076",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/sporty_gloves-10076.png",
+	  "paint_name": "★ Sport Gloves | Nocts",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5030.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10076.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5030/10076_metal.png"
+	},
+	{
+	  "weapon_defindex": 5031,
+	  "paint": "10013",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/slick_gloves-10013.png",
+	  "paint_name": "★ Driver Gloves | Lunar Weave",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5031.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10013.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10013_metal.png"
+	},
+	{
+	  "weapon_defindex": 5031,
+	  "paint": "10015",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/slick_gloves-10015.png",
+	  "paint_name": "★ Driver Gloves | Convoy",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5031.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10015.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10015_metal.png"
+	},
+	{
+	  "weapon_defindex": 5031,
+	  "paint": "10016",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/slick_gloves-10016.png",
+	  "paint_name": "★ Driver Gloves | Crimson Weave",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5031.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10016.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10016_metal.png"
+	},
+	{
+	  "weapon_defindex": 5031,
+	  "paint": "10040",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/slick_gloves-10040.png",
+	  "paint_name": "★ Driver Gloves | Diamondback",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5031.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10040.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10040_metal.png"
+	},
+	{
+	  "weapon_defindex": 5031,
+	  "paint": "10041",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/slick_gloves-10041.png",
+	  "paint_name": "★ Driver Gloves | King Snake",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5031.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10041.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10041_metal.png"
+	},
+	{
+	  "weapon_defindex": 5031,
+	  "paint": "10042",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/slick_gloves-10042.png",
+	  "paint_name": "★ Driver Gloves | Imperial Plaid",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5031.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10042.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10042_metal.png"
+	},
+	{
+	  "weapon_defindex": 5031,
+	  "paint": "10043",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/slick_gloves-10043.png",
+	  "paint_name": "★ Driver Gloves | Overtake",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5031.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10043.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10043_metal.png"
+	},
+	{
+	  "weapon_defindex": 5031,
+	  "paint": "10044",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/slick_gloves-10044.png",
+	  "paint_name": "★ Driver Gloves | Racing Green",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5031.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10044.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10044_metal.png"
+	},
+	{
+	  "weapon_defindex": 5031,
+	  "paint": "10069",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/slick_gloves-10069.png",
+	  "paint_name": "★ Driver Gloves | Rezan the Red",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5031.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10069.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10069_metal.png"
+	},
+	{
+	  "weapon_defindex": 5031,
+	  "paint": "10070",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/slick_gloves-10070.png",
+	  "paint_name": "★ Driver Gloves | Snow Leopard",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5031.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10070.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10070_metal.png"
+	},
+	{
+	  "weapon_defindex": 5031,
+	  "paint": "10071",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/slick_gloves-10071.png",
+	  "paint_name": "★ Driver Gloves | Queen Jaguar",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5031.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10071.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10071_metal.png"
+	},
+	{
+	  "weapon_defindex": 5031,
+	  "paint": "10072",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/slick_gloves-10072.png",
+	  "paint_name": "★ Driver Gloves | Black Tie",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5031.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10072.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5031/10072_metal.png"
+	},
+	{
+	  "weapon_defindex": 5032,
+	  "paint": "10009",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/leather_handwraps-10009.png",
+	  "paint_name": "★ Hand Wraps | Leather",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5032.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10009.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10009_metal.png"
+	},
+	{
+	  "weapon_defindex": 5032,
+	  "paint": "10010",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/leather_handwraps-10010.png",
+	  "paint_name": "★ Hand Wraps | Spruce DDPAT",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5032.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10010.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10010_metal.png"
+	},
+	{
+	  "weapon_defindex": 5032,
+	  "paint": "10021",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/leather_handwraps-10021.png",
+	  "paint_name": "★ Hand Wraps | Slaughter",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5032.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10021.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10021_metal.png"
+	},
+	{
+	  "weapon_defindex": 5032,
+	  "paint": "10036",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/leather_handwraps-10036.png",
+	  "paint_name": "★ Hand Wraps | Badlands",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5032.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10036.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10036_metal.png"
+	},
+	{
+	  "weapon_defindex": 5032,
+	  "paint": "10053",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/leather_handwraps-10053.png",
+	  "paint_name": "★ Hand Wraps | Cobalt Skulls",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5032.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10053.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10053_metal.png"
+	},
+	{
+	  "weapon_defindex": 5032,
+	  "paint": "10054",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/leather_handwraps-10054.png",
+	  "paint_name": "★ Hand Wraps | Overprint",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5032.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10054.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10054_metal.png"
+	},
+	{
+	  "weapon_defindex": 5032,
+	  "paint": "10055",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/leather_handwraps-10055.png",
+	  "paint_name": "★ Hand Wraps | Duct Tape",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5032.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10055.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10055_metal.png"
+	},
+	{
+	  "weapon_defindex": 5032,
+	  "paint": "10056",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/leather_handwraps-10056.png",
+	  "paint_name": "★ Hand Wraps | Arboreal",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5032.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10056.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10056_metal.png"
+	},
+	{
+	  "weapon_defindex": 5032,
+	  "paint": "10081",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/leather_handwraps-10081.png",
+	  "paint_name": "★ Hand Wraps | Desert Shamagh",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5032.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10081.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10081_metal.png"
+	},
+	{
+	  "weapon_defindex": 5032,
+	  "paint": "10082",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/leather_handwraps-10082.png",
+	  "paint_name": "★ Hand Wraps | Giraffe",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5032.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10082.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10082_metal.png"
+	},
+	{
+	  "weapon_defindex": 5032,
+	  "paint": "10083",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/leather_handwraps-10083.png",
+	  "paint_name": "★ Hand Wraps | Constrictor",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5032.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10083.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10083_metal.png"
+	},
+	{
+	  "weapon_defindex": 5032,
+	  "paint": "10084",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/leather_handwraps-10084.png",
+	  "paint_name": "★ Hand Wraps | CAUTION!",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5032.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10084.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5032/10084_metal.png"
+	},
+	{
+	  "weapon_defindex": 5033,
+	  "paint": "10024",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/motorcycle_gloves-10024.png",
+	  "paint_name": "★ Moto Gloves | Eclipse",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5033.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10024.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10024_metal.png"
+	},
+	{
+	  "weapon_defindex": 5033,
+	  "paint": "10026",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/motorcycle_gloves-10026.png",
+	  "paint_name": "★ Moto Gloves | Spearmint",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5033.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10026.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10026_metal.png"
+	},
+	{
+	  "weapon_defindex": 5033,
+	  "paint": "10027",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/motorcycle_gloves-10027.png",
+	  "paint_name": "★ Moto Gloves | Boom!",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5033.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10027.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10027_metal.png"
+	},
+	{
+	  "weapon_defindex": 5033,
+	  "paint": "10028",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/motorcycle_gloves-10028.png",
+	  "paint_name": "★ Moto Gloves | Cool Mint",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5033.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10028.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10028_metal.png"
+	},
+	{
+	  "weapon_defindex": 5033,
+	  "paint": "10049",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/motorcycle_gloves-10049.png",
+	  "paint_name": "★ Moto Gloves | POW!",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5033.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10049.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10049_metal.png"
+	},
+	{
+	  "weapon_defindex": 5033,
+	  "paint": "10050",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/motorcycle_gloves-10050.png",
+	  "paint_name": "★ Moto Gloves | Turtle",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5033.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10050.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10050_metal.png"
+	},
+	{
+	  "weapon_defindex": 5033,
+	  "paint": "10051",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/motorcycle_gloves-10051.png",
+	  "paint_name": "★ Moto Gloves | Transport",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5033.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10051.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10051_metal.png"
+	},
+	{
+	  "weapon_defindex": 5033,
+	  "paint": "10052",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/motorcycle_gloves-10052.png",
+	  "paint_name": "★ Moto Gloves | Polygon",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5033.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10052.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10052_metal.png"
+	},
+	{
+	  "weapon_defindex": 5033,
+	  "paint": "10077",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/motorcycle_gloves-10077.png",
+	  "paint_name": "★ Moto Gloves | Finish Line",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5033.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10077.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10077_metal.png"
+	},
+	{
+	  "weapon_defindex": 5033,
+	  "paint": "10078",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/motorcycle_gloves-10078.png",
+	  "paint_name": "★ Moto Gloves | Smoke Out",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5033.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10078.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10078_metal.png"
+	},
+	{
+	  "weapon_defindex": 5033,
+	  "paint": "10079",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/motorcycle_gloves-10079.png",
+	  "paint_name": "★ Moto Gloves | Blood Pressure",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5033.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10079.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10079_metal.png"
+	},
+	{
+	  "weapon_defindex": 5033,
+	  "paint": "10080",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/motorcycle_gloves-10080.png",
+	  "paint_name": "★ Moto Gloves | 3rd Commando Company",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5033.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10080.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5033/10080_metal.png"
+	},
+	{
+	  "weapon_defindex": 5034,
+	  "paint": "10030",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/specialist_gloves-10030.png",
+	  "paint_name": "★ Specialist Gloves | Forest DDPAT",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5034.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10030.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10030_metal.png"
+	},
+	{
+	  "weapon_defindex": 5034,
+	  "paint": "10033",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/specialist_gloves-10033.png",
+	  "paint_name": "★ Specialist Gloves | Crimson Kimono",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5034.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10033.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10033_metal.png"
+	},
+	{
+	  "weapon_defindex": 5034,
+	  "paint": "10034",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/specialist_gloves-10034.png",
+	  "paint_name": "★ Specialist Gloves | Emerald Web",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5034.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10034.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10034_metal.png"
+	},
+	{
+	  "weapon_defindex": 5034,
+	  "paint": "10035",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/specialist_gloves-10035.png",
+	  "paint_name": "★ Specialist Gloves | Foundation",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5034.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10035.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10035_metal.png"
+	},
+	{
+	  "weapon_defindex": 5034,
+	  "paint": "10061",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/specialist_gloves-10061.png",
+	  "paint_name": "★ Specialist Gloves | Crimson Web",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5034.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10061.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10061_metal.png"
+	},
+	{
+	  "weapon_defindex": 5034,
+	  "paint": "10062",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/specialist_gloves-10062.png",
+	  "paint_name": "★ Specialist Gloves | Buckshot",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5034.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10062.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10062_metal.png"
+	},
+	{
+	  "weapon_defindex": 5034,
+	  "paint": "10063",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/specialist_gloves-10063.png",
+	  "paint_name": "★ Specialist Gloves | Fade",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5034.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10063.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10063_metal.png"
+	},
+	{
+	  "weapon_defindex": 5034,
+	  "paint": "10064",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/specialist_gloves-10064.png",
+	  "paint_name": "★ Specialist Gloves | Mogul",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5034.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10064.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10064_metal.png"
+	},
+	{
+	  "weapon_defindex": 5034,
+	  "paint": "10065",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/specialist_gloves-10065.png",
+	  "paint_name": "★ Specialist Gloves | Marble Fade",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5034.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10065.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10065_metal.png"
+	},
+	{
+	  "weapon_defindex": 5034,
+	  "paint": "10066",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/specialist_gloves-10066.png",
+	  "paint_name": "★ Specialist Gloves | Lt. Commander",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5034.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10066.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10066_metal.png"
+	},
+	{
+	  "weapon_defindex": 5034,
+	  "paint": "10067",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/specialist_gloves-10067.png",
+	  "paint_name": "★ Specialist Gloves | Tiger Strike",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5034.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10067.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10067_metal.png"
+	},
+	{
+	  "weapon_defindex": 5034,
+	  "paint": "10068",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/specialist_gloves-10068.png",
+	  "paint_name": "★ Specialist Gloves | Field Agent",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5034.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10068.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5034/10068_metal.png"
+	},
+	{
+	  "weapon_defindex": 5035,
+	  "paint": "10057",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/studded_hydra_gloves-10057.png",
+	  "paint_name": "★ Hydra Gloves | Emerald",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5035.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5035/10057.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5035/10057_metal.png"
+	},
+	{
+	  "weapon_defindex": 5035,
+	  "paint": "10058",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/studded_hydra_gloves-10058.png",
+	  "paint_name": "★ Hydra Gloves | Mangrove",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5035.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5035/10058.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5035/10058_metal.png"
+	},
+	{
+	  "weapon_defindex": 5035,
+	  "paint": "10059",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/studded_hydra_gloves-10059.png",
+	  "paint_name": "★ Hydra Gloves | Rattler",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5035.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5035/10059.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5035/10059_metal.png"
+	},
+	{
+	  "weapon_defindex": 5035,
+	  "paint": "10060",
+	  "image": "https://raw.githubusercontent.com/daffyyyy/cs2-WeaponPaints/main/website/img/skins/studded_hydra_gloves-10060.png",
+	  "paint_name": "★ Hydra Gloves | Case Hardened",
+	  "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/5035.glb",
+	  "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5035/10060.png",
+	  "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/5035/10060_metal.png"
+	}
+]
