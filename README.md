@@ -4,9 +4,17 @@ with all the current features `weaponpaints` have to offer.
 
 ### Please download the website from the releases section.
 
-## Requirements
-* PHP.
-* Apache (or htaccess support).
+## Webserver
+### Apache
+use .htaccess file included.
+
+### Nginx
+use this location block in .conf file:
+```nginx
+location / {
+     try_files $uri /index.php?path=$uri&$args;
+}
+```
 
 ## Updates
 * Recoded the whole website backend.
