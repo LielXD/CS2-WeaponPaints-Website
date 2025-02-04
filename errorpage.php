@@ -10,11 +10,9 @@ if(!isset($documentError_Code)) {
 
 if(!function_exists('GetPrefix')) {
     function GetPrefix() {
-        $path = explode('\\', dirname(__FILE__));
-        $mainfolder = $path[count($path)-1];
-    
-        $url = explode($mainfolder, $_SERVER['REQUEST_URI'])[0];
-        return $url.$mainfolder.'/';
+        $path = str_replace('index.php', '', $_SERVER['SCRIPT_NAME']);
+        
+        return $path;
     }
 }
 
