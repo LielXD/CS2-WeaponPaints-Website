@@ -4,17 +4,23 @@ with all the current features `weaponpaints` have to offer.
 
 ### Please download the website from the releases section.
 
-## Webserver
-### Apache
-use .htaccess file included.
+## Requirements
+* Webserver
+  * Apache - use .htaccess file included.<br><br>
+     OR
+  * Nginx - use this location block in .conf file<br>
+  
+     ```nginx
+     location / {
+          try_files $uri /index.php?path=$uri&$args;
+     }
+     ```
+* PHP - make sure to enable in `php.ini` these:
+     * extension_dir = "ext
+     * extension=curl
+     * extension=pdo_mysql
 
-### Nginx
-use this location block in .conf file:
-```nginx
-location / {
-     try_files $uri /index.php?path=$uri&$args;
-}
-```
+You ofc need a webhost to host the website.
 
 ## Updates
 * Recoded the whole website backend.
