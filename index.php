@@ -18,7 +18,7 @@ if(session_status() != PHP_SESSION_ACTIVE) {
 }
 
 function GetPrefix() {
-    $path = str_replace('index.php', '', $_SERVER['PHP_SELF']);
+    $path = str_replace('index.php', '', $_SERVER['SCRIPT_NAME']);
     
     return $path;
 }
