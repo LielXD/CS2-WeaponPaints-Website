@@ -1,6 +1,5 @@
 <?php
 
-
 include_once './config.php';
 
 ini_set('session.use_only_cookies', 1);
@@ -19,19 +18,9 @@ if(session_status() != PHP_SESSION_ACTIVE) {
 }
 
 function GetPrefix() {
-    if(!str_contains(dirname(__FILE__), '\\')) {
-        $path = explode('/', dirname(__FILE__));
-    }else {
-        $path = explode('\\', dirname(__FILE__));
-    }
-    $mainfolder = $path[count($path)-1];
+    $path = str_replace('index.php', '', $_SERVER['PHP_SELF']);
     
-    if($mainfolder == $_SERVER['HTTP_HOST']) {
-        return "/";
-    }
-
-    $url = explode($mainfolder, $_SERVER['REQUEST_URI'])[0];
-    return $url.$mainfolder.'/';
+    return $path;
 }
 
 if($Website_Settings['language'] && isset($_COOKIE['cs2weaponpaints_lielxd_language'])
@@ -77,10 +66,14 @@ if(!isset($documentError_Code)) {
 }
 
 function Path($key = null) {
+    str_starts_with($_GET['path'] ?? "", '/')?$_GET['path'] = substr($_GET['path'], 1):false;
+    
     $path = explode("/", $_GET['path'] ?? 'signin');
     if(is_null($key)) {
         return $path;
     }
+
+    empty($path[0])?$path[0] = 'signin':false;
 
     return $path[$key] ?? '';
 }
