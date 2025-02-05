@@ -1,0 +1,85 @@
+{
+    "website_name": "LielXD CS2",
+    "invert_direction": false,
+    "error": {
+        "code": "Bład: {{code}}!",
+        "message": "napotkano problem.",
+        "unauthorized": "Nie masz uprawnień aby tu być.",
+        "notfound": "Żądana strona nie została znaleziona na serwerze.",
+        "serverinternal": "Serwer napotkał problem.",
+        "button": "Wróc do strony"
+    },
+    "login": {
+        "header": "Counter Strike 2 - Połącz się:",
+        "titles": [
+            {"name": "CS2.LIELXD.COM", "hover": "Retake Server", "link": "steam://connect/34.165.48.66:27015?appid=730"},
+            {"name": "CS2.LIELXD.COM", "hover": "Surf Server", "link": "steam://connect/34.165.48.66:27016?appid=730"}
+        ],
+        "footer": "aby ustawić skiny musisz się zalogować.",
+        "button": "Zaloguj przez Steam"
+    },
+    "skins": {
+        "choose_weapon": "Wybierz {{label}}",
+        "choose_weapon_default": "skiny",
+        "categories": {
+            "knifes": "noże",
+            "pistols": "pistolety",
+            "rifles": "karabiny",
+            "smg": "SMG",
+            "machine_guns": "strzelby",
+            "sniper_rifles": "snajperki",
+            "shotguns": "shotguny",
+            "gloves": "rękawiczki",
+            "agents": {
+                "label": "agentów",
+                "ct": "CT",
+                "t": "TT"
+            },
+            "mvp": "MVP"
+        },
+        "selected_weapon": {
+            "weapon_selected_label": "Wybrana broń",
+            "choose_weapon_button": "Wybierz inną broń",
+            "select_skin_label": "Wybierz"
+        },
+        "view_skin": {
+            "title": "Edytuj",
+            "team": "Drużyna",
+            "wear": {
+                "label": "Stan zużycia",
+                "factory_new": "Fabrycznie nowy",
+                "minimal_wear": "Lekko używany",
+                "field_tested": "Przetestowany w boju",
+                "well_worn": " Ślady używania",
+                "battle_scarred": "Po cięzkich walkach",
+                "custom": "Niestandardowy"
+            },
+            "seed": "Pattern",
+            "nametag": "Własna nazwa broni",
+            "stattrak": {
+                "label": "Stattrak",
+                "label_kills": "Kille"
+            },
+            "stickers": "Naklejki",
+            "keychains": "Breloki",
+            "select": "Wybierz",
+            "search": "Szukaj",
+            "apply": {
+                "terror": "Zastosuj dla T",
+                "counterterror": "Zastosuj dla CT"
+            }
+        },
+        "footer": {
+            "signedin": "zalogowano jako<br>{{name}}.",
+            "sign_out": "wyloguj",
+            "settings": {
+                "language": "Język",
+                "theme": {
+                    "label": "Styl",
+                    "custom": "Własny kolor",
+                    "choose": "Wybierz kolor"
+                }
+            }
+        }
+    }
+}
