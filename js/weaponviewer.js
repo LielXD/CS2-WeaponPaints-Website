@@ -117,11 +117,11 @@ document.addEventListener('click', async function(e) {
                 let scale = elem.dataset.scale || 0;
                 let rotation = elem.dataset.rotation || 0;
                 
-                stickersval.push(`${id};${schema};${x};${y};${wear};${scale};${rotation};`);
+                stickersval.push(`${id};${schema};${x};${y};${wear};${scale};${rotation}`);
             }
         }else {
             for(let i=0;i<5;i++) {
-                stickersval.push('0;0;0;0;0;0;0;');
+                stickersval.push('0;0;0;0;0;0;0');
             }
         }
 
@@ -133,10 +133,10 @@ document.addEventListener('click', async function(e) {
                 let x = elem.dataset.x || 0, y = elem.dataset.y || 0, z = elem.dataset.z || 0;
                 let seed = elem.dataset.seed || 0;
                 
-                keychainsval.push(`${id};${x};${y};${z};${seed};`);
+                keychainsval.push(`${id};${x};${y};${z};${seed}`);
             }
         }else {
-            keychainsval.push('0;0;0;0;0;');
+            keychainsval.push('0;0;0;0;0');
         }
 
         let team = 0;
