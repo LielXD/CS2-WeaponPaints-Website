@@ -16,7 +16,7 @@ with all the current features `weaponpaints` have to offer.
      }
      ```
 * PHP - make sure to enable in `php.ini` these:
-     * extension_dir = "ext
+     * extension_dir = "ext"
      * extension=curl
      * extension=pdo_mysql
 
