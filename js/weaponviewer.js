@@ -141,9 +141,9 @@ document.addEventListener('click', async function(e) {
 
         let team = 0;
         if(e.target.classList.contains('terror')) {
-            team = 1;
-        }else if(e.target.classList.contains('counter-terror')) {
             team = 2;
+        }else if(e.target.classList.contains('counter-terror')) {
+            team = 3;
         }
 
         try {
@@ -174,7 +174,7 @@ document.addEventListener('click', async function(e) {
             }
 
             if(data.length == 0) {
-                if(team == 1) {
+                if(team == 2) {
                     saved_t = JSON.stringify({
                         weapon_wear: wearval,
                         weapon_seed: seedval,
@@ -192,7 +192,7 @@ document.addEventListener('click', async function(e) {
                     if(saved_t != false && saved_ct != false && currenttype != 'mvp' && currenttype != 'agents') {
                         document.querySelector('#preset').style.display = null;
                     }
-                }else if(team == 2) {
+                }else if(team == 3) {
                     saved_ct = JSON.stringify({
                         weapon_wear: wearval,
                         weapon_seed: seedval,
