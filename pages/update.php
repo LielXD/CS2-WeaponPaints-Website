@@ -44,13 +44,13 @@ try {
 switch($_POST['type']) {
     case 'gloves':
         if($_POST['paint'] == 'ct') {
-            $state = $pdo->prepare("DELETE FROM `wp_player_gloves` WHERE `steamid` = ? AND `weapon_team` = 2");
+            $state = $pdo->prepare("DELETE FROM `wp_player_gloves` WHERE `steamid` = ? AND `weapon_team` = 3");
             $state->execute([$_SESSION['steamid']]);
 
             display([]);
             return;
         }else if($_POST['paint'] == 't') {
-            $state = $pdo->prepare("DELETE FROM `wp_player_gloves` WHERE `steamid` = ? AND `weapon_team` = 1");
+            $state = $pdo->prepare("DELETE FROM `wp_player_gloves` WHERE `steamid` = ? AND `weapon_team` = 2");
             $state->execute([$_SESSION['steamid']]);
             
             display([]);
@@ -88,14 +88,14 @@ switch($_POST['type']) {
         $exists = $state->fetch();
 
         if($exists) {
-            if($_POST['team'] == 1) {
+            if($_POST['team'] == 2) {
                 $state = $pdo->prepare("UPDATE `wp_player_agents` SET `agent_t` = ? WHERE `steamid` = ?");
             }else {
                 $state = $pdo->prepare("UPDATE `wp_player_agents` SET `agent_ct` = ? WHERE `steamid` = ?");
             }
             $state->execute([$_POST['index'], $_SESSION['steamid']]);
         }else {
-            if($_POST['team'] == 1) {
+            if($_POST['team'] == 2) {
                 $state = $pdo->prepare("INSERT INTO `wp_player_agents`(`steamid`, `agent_t`) VALUES(?,?)");
             }else {
                 $state = $pdo->prepare("INSERT INTO `wp_player_agents`(`steamid`, `agent_ct`) VALUES(?,?)");
