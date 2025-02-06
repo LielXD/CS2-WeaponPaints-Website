@@ -129,9 +129,17 @@ switch($selectedweapon_type) {
             }
         }
 
+        $weapon_info['img'] = [];
+
         if($current_t) {
             $weapon_info['name'] = $current_t->name;
-            $weapon_info['img'] = [$current_t->image];
+            array_push($weapon_info['img'], $current_t->image);
+        }
+        if($current_ct) {
+            if(!isset($weapon_info['name'])) {
+                $weapon_info['name'] = $current_ct->name;
+            }
+            array_push($weapon_info['img'], $current_ct->image);
         }
 
         break;
