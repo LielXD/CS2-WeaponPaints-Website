@@ -17,7 +17,13 @@ if(isset($_SESSION['steamid'])) {
 require_once 'imports/openid.php';
 
 try {
-    $openid = new LightOpenID($_SERVER['SERVER_NAME']);
+    if(isset($_SERVER['HTTPS'])) {
+        $url = "https://".$_SERVER['SERVER_NAME'];
+    }else {
+        $url = "http://".$_SERVER['SERVER_NAME'].':'.$_SERVER['SERVER_PORT'];
+    }
+    
+    $openid = new LightOpenID($url);
     
     if(!$openid->mode) {
         $openid->identity = 'https://steamcommunity.com/openid';
