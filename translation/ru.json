@@ -1,0 +1,85 @@
+{
+    "website_name": "LielXD CS2 Server",
+    "invert_direction": false,
+    "error": {
+        "code": "Произошла ошибка {{code}}!",
+        "message": "что-то пошло не так...",
+        "unauthorized": "У вас нет разрешения находиться здесь.",
+        "notfound": "Запрошенная страница не найдена.",
+        "serverinternal": "Сервер столкнулся с непредвиденной ошибкой, которое помешало ему выполнить запрос.",
+        "button": "Вернуться на веб-сайт"
+    },
+    "login": {
+        "header": "Counter Strike 2 Server - Подключайтесь сейчас:",
+        "titles": [
+            {"name": "CS2.LIELXD.COM", "hover": "Подключитесь к серверу retake", "link": "steam://connect/34.165.48.66:27015?appid=730"},
+            {"name": "CS2.LIELXD.COM", "hover": "Подключитесь к серверу surf", "link": "steam://connect/34.165.48.66:27016?appid=730"}
+        ],
+        "footer": "пожалуйста, войдите в систему через steam, чтобы продолжить.",
+        "button": "Войти через Steam"
+    },
+    "skins": {
+        "choose_weapon": "Выберите себе {{label}}",
+        "choose_weapon_default": "оружие",
+        "categories": {
+            "knifes": "Ножи",
+            "pistols": "Пистолеты",
+            "rifles": "Винтовки",
+            "smg": "Smg",
+            "machine_guns": "Пулеметы",
+            "sniper_rifles": "Снайперские винтовки",
+            "shotguns": "Ружья",
+            "gloves": "Перчатки",
+            "agents": {
+                "label": "Агенты",
+                "ct": "Контр-террорист",
+                "t": "Террорист"
+            }
+        },
+        "selected_weapon": {
+            "weapon_selected_label": "Выбранное оружие",
+            "choose_weapon_button": "Выбрать другое оружие",
+            "select_skin_label": "Выберите скин"
+        },
+        
+        "view_skin": {
+            "title": "Customize",
+            "team": "Team",
+            "wear": {
+                "label": "Wear",
+                "factory_new": "Factory New",
+                "minimal_wear": "Minimal Wear",
+                "field_tested": "Field Tested",
+                "well_worn": "Well Worn",
+                "battle_scarred": "Battle Scarred",
+                "custom": "Custom"
+            },
+            "seed": "Seed",
+            "nametag": "Name tag",
+            "stattrak": {
+                "label": "Stattrak",
+                "label_kills": "Kills"
+            },
+            "stickers": "Stickers",
+            "keychains": "Keychains",
+            "select": "Select",
+            "search": "Search",
+            "apply": {
+                "terror": "Apply T",
+                "counterterror": "Apply CT"
+            }
+        },
+        "footer": {
+            "signedin": "Вы вошли как<br>{{name}}.",
+            "sign_out": "Выход",
+            "settings": {
+                "language": "язык",
+                "theme": {
+                    "label": "Тема",
+                    "custom": "цвет",
+                    "choose": "Выберите цвет"
+                }
+            }
+        }
+    }
+}

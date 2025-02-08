@@ -1,0 +1,84 @@
+{
+    "website_name": "LielXD CS2 服务器",
+    "invert_direction": false,
+    "error": {
+        "code": "发生错误！错误代码：{{code}}!",
+        "message": "0.0发生什么事了？",
+        "unauthorized": "未经授权的访问",
+        "notfound": "404~您所查找的页面不存在！",
+        "serverinternal": "服务器遇到了一个意外的情况，阻止了它完成请求。",
+        "button": "返回网站"
+    },
+    "login": {
+        "header": "CS2服务器 - 现在加入！:",
+        "titles": [
+            {"name": "CS2.LIELXD.COM", "hover": "加入游戏 retake", "link": "steam://connect/34.165.48.66:27015?appid=730"},
+            {"name": "CS2.LIELXD.COM", "hover": "加入游戏 surf", "link": "steam://connect/34.165.48.66:27016?appid=730"}
+        ],
+        "footer": "请先登录你的Steam账户！",
+        "button": "通过Steam登录"
+    },
+    "skins": {
+        "choose_weapon": "选择你的 {{label}}",
+        "choose_weapon_default": "皮肤",
+        "categories": {
+            "knifes": "刀具",
+            "pistols": "手枪",
+            "rifles": "步枪",
+            "smg": "微型冲锋枪",
+            "machine_guns": "机枪",
+            "sniper_rifles": "狙击步枪",
+            "shotguns": "霰弹枪",
+            "gloves": "手套",
+            "agents": {
+                "label": "代理商",
+                "ct": "反恐",
+                "t": "恐怖分子"
+            }
+        },
+        "selected_weapon": {
+            "weapon_selected_label": "已选择的武器",
+            "choose_weapon_button": "选择不同的武器",
+            "select_skin_label": "选择皮肤"
+        },
+        "view_skin": {
+            "title": "Customize",
+            "team": "Team",
+            "wear": {
+                "label": "磨损",
+                "factory_new": "崭新出厂",
+                "minimal_wear": "略有磨损",
+                "field_tested": "久经沙场",
+                "well_worn": "破损不堪",
+                "battle_scarred": "战痕累累",
+                "custom": "Custom"
+            },
+            "seed": "图案模板",
+            "nametag": "Name tag",
+            "stattrak": {
+                "label": "Stattrak",
+                "label_kills": "Kills"
+            },
+            "stickers": "Stickers",
+            "keychains": "Keychains",
+            "select": "Select",
+            "search": "Search",
+            "apply": {
+                "terror": "Apply T",
+                "counterterror": "Apply CT"
+            }
+        },
+        "footer": {
+            "signedin": "当前登录账户：<br>{{name}}",
+            "sign_out": "登出",
+            "settings": {
+                "language": "语言",
+                "theme": {
+                    "label": "主题",
+                    "custom": "定制颜色",
+                    "choose": "选择颜色"
+                }
+            }
+        }
+    }
+}

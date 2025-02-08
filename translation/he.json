@@ -1,0 +1,85 @@
+{
+    "website_name": "LielXD CS2 Server",
+    "invert_direction": true,
+    "error": {
+        "code": "שגיאה {{code}}!",
+        "message": "משהו קרה..",
+        "unauthorized": "אין לך גישה לכאן.",
+        "notfound": "הדף המבוקש אינו נמצא באתר זה.",
+        "serverinternal": "שגיאת שרת אנא צור קשר עם צוות האתר.",
+        "button": "בחזרה לאתר"
+    },
+    "login": {
+        "header": "שרת קונטר סטרייק 2 - היכנסו עכשיו",
+        "titles": [
+            {"name": "CS2.LIELXD.COM", "hover": "היכנסו לשרת הריטייק", "link": "steam://connect/34.165.48.66:27015?appid=730"},
+            {"name": "CS2.LIELXD.COM", "hover": "היכנסו לשרת הסארף", "link": "steam://connect/34.165.48.66:27016?appid=730"}
+        ],
+        "footer": "בבקשה התחברו דרך Steam בכדי להמשיך.",
+        "button": "התחברות עם Steam"
+    },
+    "skins": {
+        "choose_weapon": "בחר {{label}}",
+        "choose_weapon_default": "סקין",
+        "categories": {
+            "knifes": "סכינים",
+            "pistols": "אקדחים",
+            "rifles": "נשקים",
+            "smg": "תת מקלע",
+            "machine_guns": "מקלעים",
+            "sniper_rifles": "צלפים",
+            "shotguns": "שוטגאנים",
+            "gloves": "כפפות",
+            "agents": {
+                "label": "דמויות",
+                "ct": "צבא",
+                "t": "טרוריסטים"
+            },
+            "mvp": "ערכות מוזיקה"
+        },
+        "selected_weapon": {
+            "weapon_selected_label": "הנשק שנבחר",
+            "choose_weapon_button": "בחר נשק אחר",
+            "select_skin_label": "בחר סקין"
+        },
+        "view_skin": {
+            "title": "התאמה אישית",
+            "team": "קבוצה",
+            "wear": {
+                "label": "בלאי הנשק",
+                "factory_new": "חדש מהמפעל",
+                "minimal_wear": "כמעט חדש",
+                "field_tested": "משומש",
+                "well_worn": "ישן",
+                "battle_scarred": "מאוד ישן",
+                "custom": "מותאם אישית"
+            },
+            "seed": "מיקום הסקין",
+            "nametag": "שם הנשק",
+            "stattrak": {
+                "label": "מעקב הריגות",
+                "label_kills": "כמות"
+            },
+            "stickers": "סטיקרים",
+            "keychains": "מחזיקי מפתחות",
+            "select": "בחר",
+            "search": "חפש",
+            "apply": {
+                "terror": "בחר לטרוריסטים",
+                "counterterror": "בחר לשוטרים"
+            }
+        },
+        "footer": {
+            "signedin": "מחובר בתור<br>{{name}}.",
+            "sign_out": "התנתקות",
+            "settings": {
+                "language": "שפה",
+                "theme": {
+                    "label": "עיצוב",
+                    "custom": "שינוי צבע",
+                    "choose": "בחר צבע"
+                }
+            }
+        }
+    }
+}

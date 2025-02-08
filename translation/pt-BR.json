@@ -1,0 +1,84 @@
+{
+    "website_name": "LielXD CS2 Server",
+    "invert_direction": false,
+    "error": {
+        "code": "Ocorreu um erro {{code}}!",
+        "message": "algo aconteceu.",
+        "unauthorized": "Você não tem permissão para estar aqui.",
+        "notfound": "A página solicitada não foi encontrada neste servidor.",
+        "serverinternal": "O servidor encontrou uma condição inesperada que o impediu de atender à solicitação.",
+        "button": "Voltar ao site"
+    },
+    "login": {
+        "header": "Counter Strike 2 Server - Conecte-se agora:",
+        "titles": [
+            {"name": "CS2.LIELXD.COM", "hover": "Conecte-se ao servidor retake", "link": "steam://connect/34.165.48.66:27015?appid=730"},
+            {"name": "CS2.LIELXD.COM", "hover": "Conecte-se ao servidor surf", "link": "steam://connect/34.165.48.66:27016?appid=730"}
+        ],
+        "footer": "faça login através da Steam para continuar.",
+        "button": "Entrar com a Steam"
+    },
+    "skins": {
+        "choose_weapon": "Escolha sua {{label}}",
+        "choose_weapon_default": "arma",
+        "categories": {
+            "knifes": "Knives",
+            "pistols": "Pistols",
+            "rifles": "Rifles",
+            "smg": "SMGs",
+            "machine_guns": "Machine Guns",
+            "sniper_rifles": "Sniper Rifles",
+            "shotguns": "Shotguns",
+            "gloves": "Luvas",
+            "agents": {
+                "label": "Agentes",
+                "ct": "Contra-Terrorista",
+                "t": "Terrorista"
+            }
+        },
+        "selected_weapon": {
+            "weapon_selected_label": "Arma selecionada",
+            "choose_weapon_button": "Escolha uma arma diferente",
+            "select_skin_label": "Escolha sua skin"
+        },
+        "view_skin": {
+            "title": "Customize",
+            "team": "Team",
+            "wear": {
+                "label": "Wear",
+                "factory_new": "Factory New",
+                "minimal_wear": "Minimal Wear",
+                "field_tested": "Field Tested",
+                "well_worn": "Well Worn",
+                "battle_scarred": "Battle Scarred",
+                "custom": "Custom"
+            },
+            "seed": "Seed",
+            "nametag": "Name tag",
+            "stattrak": {
+                "label": "Stattrak",
+                "label_kills": "Kills"
+            },
+            "stickers": "Stickers",
+            "keychains": "Keychains",
+            "select": "Select",
+            "search": "Search",
+            "apply": {
+                "terror": "Apply T",
+                "counterterror": "Apply CT"
+            }
+        },
+        "footer": {
+            "signedin": "conectado como<br>{{name}}.",
+            "sign_out": "sair",
+            "settings": {
+                "language": "linguagem",
+                "theme": {
+                    "label": "Tema",
+                    "custom": "Cor customizada",
+                    "choose": "Escolha a cor"
+                }
+            }
+        }
+    }
+}
