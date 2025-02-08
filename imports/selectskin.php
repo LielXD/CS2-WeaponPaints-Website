@@ -49,10 +49,10 @@ switch($selectedweapon_type) {
         $savedgloves = $state->fetchAll();
 
         foreach($savedgloves as $saved) {
-            if($saved['weapon_team'] == 1) {
+            if($saved['weapon_team'] == 2) {
                 $saved_t = $saved;
             }
-            if($saved['weapon_team'] == 2) {
+            if($saved['weapon_team'] == 3) {
                 $saved_ct = $saved;
             }
         }
@@ -64,10 +64,10 @@ switch($selectedweapon_type) {
         $temp_t = false;
         $temp_ct = false;
         foreach($savedskins as $saved) {
-            if($saved['weapon_team'] == 1) {
+            if($saved['weapon_team'] == 2) {
                 $temp_t = $saved;
             }
-            if($saved['weapon_team'] == 2) {
+            if($saved['weapon_team'] == 3) {
                 $temp_ct = $saved;
             }
         }
@@ -108,10 +108,10 @@ switch($selectedweapon_type) {
         $savedmusic = $state->fetchAll();
 
         foreach($savedmusic as $saved) {
-            if($saved['weapon_team'] == 1) {
+            if($saved['weapon_team'] == 2) {
                 $saved_t = $saved;
             }
-            if($saved['weapon_team'] == 2) {
+            if($saved['weapon_team'] == 3) {
                 $saved_ct = $saved;
             }
         }
@@ -192,7 +192,7 @@ switch($selectedweapon_type) {
         $state->execute([$_SESSION['steamid'], $current_t->weapon_defindex]);
         $savedskins = $state->fetchAll();
 
-        $is_knife = $selectedweapon == 'weapon_bayonet' || str_contains($selectedweapon, 'knife');
+        $is_knife = $selectedweapon == 'weapon_bayonet' || strpos($selectedweapon, 'knife') != 0;
         if($is_knife) {
             $state = $pdo->prepare("SELECT * FROM `wp_player_knife` WHERE `steamid` = ?");
             $state->execute([$_SESSION['steamid']]);
@@ -201,10 +201,10 @@ switch($selectedweapon_type) {
             $knife_t = false;
             $knife_ct = false;
             foreach($savedknifes as $saved) {
-                if($saved['weapon_team'] == 1) {
+                if($saved['weapon_team'] == 2) {
                     $knife_t = $saved;
                 }
-                if($saved['weapon_team'] == 2) {
+                if($saved['weapon_team'] == 3) {
                     $knife_ct = $saved;
                 }
             }
@@ -212,10 +212,10 @@ switch($selectedweapon_type) {
 
 
         foreach($savedskins as $saved) {
-            if($saved['weapon_team'] == 1) {
+            if($saved['weapon_team'] == 2) {
                 $saved_t = $saved;
             }
-            if($saved['weapon_team'] == 2) {
+            if($saved['weapon_team'] == 3) {
                 $saved_ct = $saved;
             }
         }
