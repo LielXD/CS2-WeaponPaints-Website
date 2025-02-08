@@ -157,10 +157,10 @@ if($Website_UseCategories) {
                 $knife_t = false;
                 $knife_ct = false;
                 foreach($savedknifes as $saved) {
-                    if($saved['weapon_team'] == 1) {
+                    if($saved['weapon_team'] == 2) {
                         $knife_t = $saved;
                     }
-                    if($saved['weapon_team'] == 2) {
+                    if($saved['weapon_team'] == 3) {
                         $knife_ct = $saved;
                     }
                 }
@@ -215,11 +215,11 @@ if($Website_UseCategories) {
                                 <div class="marks">
                                     <?php
                                     foreach($savedskins[$skin->weapon_defindex] as $saved) {
-                                    if($saved['weapon_team'] == 1) {
+                                    if($saved['weapon_team'] == 2) {
                                     ?>
                                     <input type="radio" name="marks_<?= $skin->weapon_name; ?>" class="terrormark" oninput="ChangePreviewImage(this);" checked>
                                     <?php
-                                    }else if($saved['weapon_team'] == 2) {
+                                    }else if($saved['weapon_team'] == 3) {
                                     ?>
                                     <input type="radio" name="marks_<?= $skin->weapon_name; ?>" class="counterterrormark" oninput="ChangePreviewImage(this);" <?= count($savedskins[$skin->weapon_defindex])<2?'checked':''; ?>>
                                     <?php
@@ -263,9 +263,9 @@ if($Website_UseCategories) {
                     $gloves_selected_ct = false;
 
                     foreach($savedgloves as $glovesaved) {
-                        if($glovesaved['weapon_team'] == 1) {
+                        if($glovesaved['weapon_team'] == 2) {
                             $gloves_selected_t = $glovesaved['weapon_defindex'];
-                        }else if($glovesaved['weapon_team'] == 2) {
+                        }else if($glovesaved['weapon_team'] == 3) {
                             $gloves_selected_ct = $glovesaved['weapon_defindex'];
                         }
                     }
@@ -287,11 +287,11 @@ if($Website_UseCategories) {
                                 <div class="marks">
                                     <?php
                                     foreach($savedskins[$glove->weapon_defindex] as $saved) {
-                                    if($saved['weapon_team'] == 1) {
+                                    if($saved['weapon_team'] == 2) {
                                     ?>
                                     <input type="radio" name="marks_<?= $glove->weapon_defindex; ?>" class="terrormark" oninput="ChangePreviewImage(this);" checked>
                                     <?php
-                                    }else if($saved['weapon_team'] == 2) {
+                                    }else if($saved['weapon_team'] == 3) {
                                     ?>
                                     <input type="radio" name="marks_<?= $glove->weapon_defindex; ?>" class="counterterrormark" oninput="ChangePreviewImage(this);" <?= count($savedskins[$glove->weapon_defindex])<2?'checked':''; ?>>
                                     <?php
@@ -413,9 +413,9 @@ if($Website_UseCategories) {
                 foreach($savedmusic as $saved) {
                     foreach($songs as $song) {
                         if($song->id == $saved['music_id']) {
-                            if($saved['weapon_team'] == 1) {
+                            if($saved['weapon_team'] == 2) {
                                 $music_t = $song;
-                            }else if($saved['weapon_team'] == 2) {
+                            }else if($saved['weapon_team'] == 3) {
                                 $music_ct = $song;
                             }
                             break;
