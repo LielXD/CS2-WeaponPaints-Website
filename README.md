@@ -46,7 +46,6 @@ I have checked most of the textures of the 3D preview, but if you found any text
 ## To Do
 * Display Stickers & Keychain on the 3D preview.
 * Stickers & Keychain custom position.
-* Update rest of the language files (only English and Hebrew up to date).
 * Add models of characters (currently only weapons, knifes, gloves models exists).
 
 would be happy if some of you can update the language files and send me, currently updated languages:
