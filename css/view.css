@@ -1,0 +1,364 @@
+header {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+    animation: slideIn 1s forwards;
+    z-index: 1;
+}
+header h2 {
+    color: var(--main-color);
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+@keyframes slideIn {
+    from {top: -20%;}
+    to {top: 0;}
+}
+
+.mainbox {
+    width: 100%;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+
+#threejsArea {
+    flex-grow: 1;
+    width: 65%;
+    height: 100%;
+    scale: 1;
+}
+
+#previewImg {
+    flex-grow: 1;
+    width: 65%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    display: none;
+    scale: 1;
+    animation: zoomIn 1s forwards;
+}
+
+@keyframes zoomIn {
+    from {scale: 0;}
+    to {scale: 1;}
+}
+
+#threejsArea {
+    cursor: grab;
+}
+#threejsArea:active {
+    cursor: grabbing;
+}
+
+#settings {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    min-width: 30%;
+    height: 100%;
+    padding: 50px;
+    animation: slideRight 1s forwards;
+}
+
+@keyframes slideRight {
+    from {
+        right: 100%;
+    }
+    to {
+        right: 0;
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0;
+    }
+}
+
+#settings .title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    fill: white;
+    color: white;
+}
+#settings .title span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+#settings .title a {
+    --main-color: #ffffff66;
+    position: absolute;
+    right: 120%;
+    top: 50%;
+    translate: 0 -50%;
+    width: 50px;
+    height: 50px;
+    aspect-ratio: 1/1;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    text-decoration: none;
+    background: none;
+    outline: 2px dashed transparent;
+    cursor: pointer;
+    z-index: 1;
+    transition: .3s;
+}
+#settings .title a:hover,
+#settings .title a:focus-visible {
+    outline: 2px dashed var(--main-color);
+    color: white;
+}
+#settings svg {
+    width: 35px;
+}
+
+#settings .apply {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+#settings .main-btn {
+    position: relative;
+    width: 100%;
+    border: 2px solid #ffffff66;
+    text-transform: capitalize;
+}
+.applied:is(.terror) {
+    --main-color: #ffa500;
+}
+.applied:is(.counter-terror) {
+    --main-color: #0096FF;
+}
+.applied::after {
+    content: '✔';
+}
+
+.input {
+    --main-color: #ffffff66;
+}
+
+#customwear {
+    --fill-precent: 0%;
+    position: relative;
+    display: none;
+    outline: none;
+    background: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    margin-top: 10px;
+    opacity: .8;
+    direction: ltr;
+}
+#customwear::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, white var(--fill-precent), var(--main-color) 0%);
+    height: 5px;
+    border-radius: 100px;
+}
+#customwear::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: white;
+    width: 15px;
+    height: 15px;
+    margin-top: -5px;
+    border-radius: 100%;
+}
+#wear:has(option[value="custom"]:checked) #customwear {
+    display: block !important;
+}
+#customwear:hover,
+#customwear:focus-visible {
+    opacity: 1;
+}
+
+#customwear::before {
+    content: attr(data-val);
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    translate: -50% 0;
+    font-size: 18px;
+    background: #111;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#stattrak {
+    width: 100%;
+}
+
+.input .box {
+    gap: 15px;
+}
+
+.input p {
+    font-size: 25px;
+    width: fit-content;
+    height: fit-content;
+    resize: none;
+    padding: 5px 10px;
+    color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+    min-width: 50px;
+    display: grid;
+    place-items: center;
+    cursor: default;
+    opacity: .3;
+}
+
+.addons {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    flex-wrap: wrap;
+}
+.addons button {
+    width: 40px;
+    height: 40px;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    background: color-mix(in srgb, var(--main-color), #111);
+    border: none;
+    font-size: 25px;
+    overflow: hidden;
+    color: white;
+    display: grid;
+    place-items: center;
+    outline: 2px solid transparent;
+    transition: .3s;
+}
+.addons button:hover,
+.addons button:focus-visible {
+    outline: 2px solid #ffffff66;
+}
+.box-col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+    gap: 10px;
+}
+.stickers,
+.keychains {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.stickers img,
+.keychains img {
+    width: 100%;
+}
+
+#viewselect {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    left: 50%;
+    translate: -50% 0;
+    z-index: 10;
+    background: #11111188;
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    overflow: hidden;
+    transition: 1s;
+}
+#viewselect .titlebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+#viewselect .title {
+    font-size: 25px;
+    color: var(--main-color);
+    text-shadow: 0 1px white;
+}
+#viewselect .titlebox button {
+    background: none;
+    border: none;
+    font-size: 50px;
+    color: var(--main-color);
+    outline: 2px dashed transparent;
+    width: 50px;
+    height: 50px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-shadow: 0 1px white;
+    transition: .3s;
+}
+#viewselect .titlebox button:hover,
+#viewselect .titlebox button:focus-visible {
+    outline: 2px dashed var(--main-color);
+}
+
+#viewselect ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px;
+    padding-bottom: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.marks {
+    justify-content: flex-start;
+}
+.marks input {
+    width: 15px !important;
+    height: 15px !important;
+}
