@@ -8,7 +8,7 @@
         exit;
     }
 
-    $title_num = rand(0, count(value: $translations->login->titles)-1);
+    $title_num = rand(0, count($translations->login->titles)-1);
 ?>
 
 <!DOCTYPE html>
