@@ -12,9 +12,9 @@ if(session_status() != PHP_SESSION_ACTIVE) {
 }
 
 function Path($key = null) {
-    str_starts_with($_GET['path'] ?? "", '/')?$_GET['path'] = substr($_GET['path'], 1):false;
+    strrpos($_GET['path'] ?? "", '/')===0?$_GET['path'] = substr($_GET['path'], 1):false;
     
-    $path = explode("/", $_GET['path'] ?? 'signin');
+    $path = array_values(array_filter(explode("/", $_GET['path'] ?? 'signin')));
     if(is_null($key)) {
         return $path;
     }
@@ -47,7 +47,7 @@ if(!file_exists('./config.php')) {
 include_once './config.php';
 
 if($Website_Settings['language'] && isset($_COOKIE['cs2weaponpaints_lielxd_language'])
-&& file_exists(realpath(path: "./translation/".$_COOKIE['cs2weaponpaints_lielxd_language'].".json"))) {
+&& file_exists(realpath("./translation/".$_COOKIE['cs2weaponpaints_lielxd_language'].".json"))) {
     $translations = json_decode(file_get_contents("./translation/".$_COOKIE['cs2weaponpaints_lielxd_language'].".json"));
 }else if($Website_Settings['language'] && !isset($_COOKIE['cs2weaponpaints_lielxd_language'])
 && file_exists(realpath("./translation/$Website_Translate.json"))) {
