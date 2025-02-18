@@ -77,6 +77,19 @@ switch($_POST['type']) {
         $state->execute([$_SESSION['steamid']]);
         $exists = $state->fetch();
 
+        if($_POST['index'] == 'default') {
+            if($_POST['team'] == 2 && !isset($exists['agent_ct']) || $_POST['team'] == 3 && !isset($exists['agent_t'])) {
+                $state = $pdo->prepare("DELETE FROM `wp_player_agents` WHERE `steamid` = ?");
+            }else if($_POST['team'] == 2) {
+                $state = $pdo->prepare("UPDATE `wp_player_agents` SET `agent_t` = NULL WHERE `steamid` = ?");
+            }else if($_POST['team'] == 3) {
+                $state = $pdo->prepare("UPDATE `wp_player_agents` SET `agent_ct` = NULL WHERE `steamid` = ?");
+            }
+
+            $state->execute([$_SESSION['steamid']]);
+            return;
+        }
+
         if($exists) {
             if($_POST['team'] == 2) {
                 $state = $pdo->prepare("UPDATE `wp_player_agents` SET `agent_t` = ? WHERE `steamid` = ?");
