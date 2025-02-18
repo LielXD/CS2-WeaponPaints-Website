@@ -48,6 +48,11 @@ if($type == 'gloves') {
     }
 }else if($type == 'agents') {
     Path(1) == 'terrorist' ? $team = 2:$team = 3;
+
+    if(Path(2) == 'default') {
+        $selectedpaint = 'default';
+    }
+
     $modelagent = str_replace('-', '/', $selectedpaint);
     foreach($agents as $key=>$agent) {
         if($agent->team == $team
