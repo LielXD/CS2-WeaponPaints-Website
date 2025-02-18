@@ -5,8 +5,6 @@ if(!function_exists("Path")) {
 }
 
 if(!isset($_SESSION['steamid'])) {
-    echo 'here: '.$_SESSION['steamid'];
-    die;
     header('Location: '.GetPrefix());
     exit;
 }
