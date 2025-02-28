@@ -39,6 +39,10 @@ if(Path(2) != 'default') {$selectedpaint = Path(2);}
 
 $type = GetWeaponType(Path(1));
 if($type == 'gloves') {
+    if(Path(2) == 'default') {
+        $selectedpaint = 'default';
+    }
+    
     foreach($gloves as $key=>$glove) {
         if($glove->weapon_defindex == Path(1)
         && $glove->paint == $selectedpaint) {
@@ -129,6 +133,13 @@ switch($type) {
             if(!$player_skin) {
                 $player_skin = $saved_ct;
             }
+        }
+
+        if($current->paint == 'ct') {
+            $weapon['t'] = null;
+        }
+        if($current->paint == 't') {
+            $weapon['ct'] = null;
         }
         
         break;
@@ -368,7 +379,7 @@ if($stickers_loop) {
             </div>
         </div>
         <?php
-        if($type != 'agents' && $type != 'mvp' && $current->paint != 'ct' && $current->paint != 't') {
+        if($type != 'agents' && $type != 'mvp' && $current->paint != 'ct' && $current->paint != 't' && $selectedpaint != 'default') {
         if($selectedpaint != 0 && $type != 'knifes' || $type == 'knifes') {
         ?>
         <div class="input" id="wear">
