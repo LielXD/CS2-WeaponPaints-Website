@@ -1,9 +1,15 @@
 [
 	{
 		"weapon_defindex": "gloves_default",
-		"paint": "default",
+		"paint": "t",
 		"image": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/main/src/gloves/default_t.png",
-		"paint_name": "Default Gloves | Default"
+		"paint_name": "Default Gloves | Terrorist Default"
+	},
+	{
+		"weapon_defindex": "gloves_default",
+		"paint": "ct",
+		"image": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/main/src/gloves/default_ct.webp",
+		"paint_name": "Default Gloves | Counter-Terrorist Default"
 	},
 	{
 	  "weapon_defindex": 4725,
