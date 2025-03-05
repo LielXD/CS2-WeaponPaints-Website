@@ -5,7 +5,7 @@
         "code": "Bir hata oluştu {{code}}!",
         "message": "Bir şeyler oldu.",
         "unauthorized": "Burada bulunma izniniz yok.",
-        "notfound": "İstenen sayfa bu sunucuda bulunamadı.",
+        "notfound": "İstenen sayfa bulunamadı.",
         "serverinternal": "Sunucu, isteği yerine getirmesini engelleyen beklenmeyen bir durumla karşılaştı.",
         "button": "Web Sitesine Geri Dön"
     },
@@ -28,13 +28,14 @@
             "smg": "SMG'lerinizi",
             "machine_guns": "Makineli Tüfeklerinizi",
             "sniper_rifles": "Keskin Nişancı Tüfeklerinizi",
-            "shotguns": "Tüfeklerinizi",
+            "shotguns": "Pompalılarınızı",
             "gloves": "Eldivenlerinizi",
             "agents": {
                 "label": "Ajanlar",
-                "ct": "Counter Terrorist",
-                "t": "Terrorist"
-            }
+                "ct": "Counter-Terrörist",
+                "t": "Terrörist"
+            },
+           "mvp": "Müzik Kitleri"
         },
         "selected_weapon": {
             "weapon_selected_label": "Seçilen Silah",
@@ -42,34 +43,34 @@
             "select_skin_label": "Skin seçin"
         },
         "view_skin": {
-            "title": "Customize",
-            "team": "Team",
+            "title": "Özelleştir",
+            "team": "Takım",
             "wear": {
                 "label": "Skin Durumu",
-                "factory_new": "Fabrika Yeni",
-                "minimal_wear": "Minimal Kullanım",
-                "field_tested": "Saha Test Edilmiş",
-                "well_worn": "Aşırı Kullanılmış",
-                "battle_scarred": "Savaş Harabesi",
-                "custom": "Gelenek"
+                "factory_new": "Fabrikadan Yeni Çıkmış",
+                "minimal_wear": "Az Aşınmış",
+                "field_tested": "Görevde Kullanılmış",
+                "well_worn": "Eskimiş",
+                "battle_scarred": "Savaş Görmüş",
+                "custom": "Özel"
             },
             "seed": "Seed",
-            "nametag": "Name tag",
+            "nametag": "İsim Etiketi",
             "stattrak": {
                 "label": "Stattrak",
                 "label_kills": "Kills"
             },
-            "stickers": "Stickers",
-            "keychains": "Keychains",
-            "select": "Select",
-            "search": "Search",
+            "stickers": "Çıkartmalar",
+            "keychains": "Anahtarlıklar",
+            "select": "Seç",
+            "search": "Ara",
             "apply": {
-                "terror": "Apply T",
-                "counterterror": "Apply CT"
+                "terror": "T'ye Uygula",
+                "counterterror": "CT'ye Uygula"
             }
         },
         "footer": {
-            "signedin": "{{name}}<br>Olarak giriş yaptınız.",
+            "signedin": "{{name}}<br>plarak giriş yaptınız.",
             "sign_out": "Çıkış yap",
             "settings": {
                 "language": "Dil",
