@@ -66,7 +66,7 @@ if(!isset($documentError_Code)) {
     if($Website_Settings['theme'] && isset($_COOKIE['cs2weaponpaints_lielxd_theme'])) {
         $Website_MainColor = $_COOKIE['cs2weaponpaints_lielxd_theme'];
         $bodyStyle .= "--main-color: $Website_MainColor;";
-    }else if($Website_MainColor == true) {
+    }else if($Website_MainColor === true) {
         $Website_MainColor = rand(111111, 999999);
         $bodyStyle .= "--main-color: #$Website_MainColor;";
     }else {
