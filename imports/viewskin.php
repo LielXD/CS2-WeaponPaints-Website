@@ -396,9 +396,6 @@ if($stickers_loop) {
             oninput="this.style.setProperty('--fill-precent', `${this.value / this.max * 100}%`);this.dataset.val = this.value;"
             style="--fill-precent: <?= isset($custom_wear)?(($custom_wear/1)*100).'%':'0'; ?>;">
         </div>
-        <?php
-        if($type != 'gloves') {
-        ?>
         <div class="input" id="seed">
             <label for="seed"><?= $translations->skins->view_skin->seed; ?></label>
             <div class="box">
@@ -406,9 +403,6 @@ if($stickers_loop) {
                 <input type="number" placeholder="1 - 1000" min="1" max="1000" <?= $player_skin['weapon_seed'] ?? 0 > 0?"value='".$player_skin['weapon_seed']."'":'disabled'; ?>>
             </div>
         </div>
-        <?php
-        }
-        ?>
         <div class="input" id="nametag">
             <label for="nametag"><?= $translations->skins->view_skin->nametag; ?></label>
             <div class="box">
