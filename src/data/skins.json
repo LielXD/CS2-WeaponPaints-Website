@@ -2410,6 +2410,17 @@
     "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/weapon_ak47/1238_metal.png"
   },
   {
+    "weapon_defindex": 7,
+    "weapon_name": "weapon_ak47",
+    "paint": "1218",
+    "image": "https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/main/website/img/skins/weapon_ak47-1218.png",
+    "paint_name": "AK-47 | Midnight Laminate",
+    "legacy_model": true,
+    "threejsmodel": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Bmodels%5D/weapon_ak47.glb",
+    "texture": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/weapon_ak47/1218.png",
+    "texture_metal": "https://raw.githubusercontent.com/LielXD/CS2-WeaponPaints-Website/refs/heads/main/src/%5Btextures%5D/weapon_ak47/1218.png"
+  },
+  {
     "weapon_defindex": 8,
     "weapon_name": "weapon_aug",
     "paint": 0,
