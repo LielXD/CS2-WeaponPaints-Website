@@ -8,6 +8,7 @@ if(!isset($_SESSION['steamid'])) {
     echo 'steamid';
     exit;
 }
+Website_RequireSteamIDAccess($_SESSION['steamid'], false);
 
 /************/
 /* Database */

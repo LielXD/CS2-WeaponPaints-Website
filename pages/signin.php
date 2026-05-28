@@ -4,6 +4,7 @@
     }
 
     if(isset($_SESSION['steamid'])) {
+        Website_RequireSteamIDAccess($_SESSION['steamid']);
         header('Location: ./skins/');
         exit;
     }

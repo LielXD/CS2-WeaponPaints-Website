@@ -8,9 +8,35 @@ $langs = scandir('translation/');
 array_shift($langs);
 array_shift($langs);
 
+function ParseSteamIDWhitelist($value) {
+    $value = trim((string)$value);
+    if($value === '') {
+        return [];
+    }
+
+    $steamids = preg_split('/[\s,;]+/', $value);
+    $allowedSteamIDs = [];
+    foreach($steamids as $steamid) {
+        $steamid = trim($steamid);
+        if($steamid === '') {
+            continue;
+        }
+
+        if(!preg_match('/^[0-9]{17}$/', $steamid)) {
+            throw new Exception('Allowed SteamIDs must be 17 digit SteamID64 values.');
+        }
+
+        $allowedSteamIDs[$steamid] = true;
+    }
+
+    return array_keys($allowedSteamIDs);
+}
+
 if(isset($_POST['generate'])) {
 
 try {
+
+$allowedSteamIDs = ParseSteamIDWhitelist($_POST['allowed_steamids'] ?? '');
 
 if(urlexists('https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/refs/heads/main/website/data/skins_'.$_POST['translation'].'.json')) {
     $agents = 'https://raw.githubusercontent.com/Nereziel/cs2-WeaponPaints/refs/heads/main/website/data/agents_'.$_POST['translation'].'.json';
@@ -68,6 +94,7 @@ file_put_contents('./src/data/skins.json', json_encode($skinsjson));
 file_put_contents('./src/data/stickers.json', file_get_contents($stickers));
 
 if($_POST['color'] == 'random') {$_POST['color'] = true;}else {$_POST['color'] = '"'.$_POST['color'].'"';}
+$allowedSteamIDsConfig = var_export($allowedSteamIDs, true);
 
 file_put_contents('./config.php', '<?php
 
@@ -91,6 +118,10 @@ $Website_UseThreejs = '.$_POST['threejs'].';
 // Exclusive team weapons will only be able to set to their team.
 // for example m4a4 skins will only be equipped to ct team, skin will not be visible on t side.
 $Website_TeamOnlyWeapons = '.$_POST['teamonly'].';
+
+// Optional SteamID64 whitelist for website access.
+// Leave empty to allow everyone with a Steam account.
+$Website_AllowedSteamIDs = '.$allowedSteamIDsConfig.';
 
 // Select which settings you want in the menu.
 $Website_Settings = [
@@ -198,6 +229,27 @@ function urlexists($url){
         .box {
             gap: 50px;
         }
+        .input textarea {
+            resize: vertical;
+            min-height: 110px;
+            font-size: 18px;
+            background: none;
+            border: none;
+            border-bottom: 2px solid var(--main-color);
+            outline: 2px dashed transparent;
+            outline-offset: 5px;
+            color: white;
+            padding: 5px 10px;
+            transition: .2s;
+            width: 100%;
+        }
+        .input textarea:hover,
+        .input textarea:focus-visible {
+            outline: 2px dashed var(--main-color);
+        }
+        .input textarea::placeholder {
+            color: color-mix(in srgb, var(--main-color), transparent);
+        }
         .input p {
             color: rgba(255, 255, 255, 0.6);
             max-width: 300px;
@@ -269,6 +321,11 @@ function urlexists($url){
                 <input type="checkbox" name="teamonly">
                 <p>Apply exclusive team weapons only to their team.<br>Example: M4A4 skins will equipped only to CT side.</p>
             </div>
+        </div>
+        <div class="input">
+            <label for="allowed_steamids">Allowed SteamID64 IDs</label>
+            <textarea name="allowed_steamids" placeholder="76561198000000000&#10;76561198000000001"></textarea>
+            <p>Optional whitelist. Leave empty to allow every Steam login.</p>
         </div>
         <div class="input">
             <label for="settings">User settings</label>
@@ -419,6 +476,11 @@ function urlexists($url){
         let teamonly = document.querySelector('input[name="teamonly"]');
         if(teamonly) {
             formdata.set('teamonly', teamonly.checked);
+        }
+
+        let allowedSteamIDs = document.querySelector('textarea[name="allowed_steamids"]');
+        if(allowedSteamIDs) {
+            formdata.set('allowed_steamids', allowedSteamIDs.value);
         }
 
         let language = document.querySelector('input[name="language"]');
