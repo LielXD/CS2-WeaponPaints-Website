@@ -32,4 +32,8 @@ Paypal => https://paypal.me/lielxd
      * extension=curl
      * extension=pdo_mysql
 
+## SteamID access whitelist
+
+During setup, add SteamID64 values to `Allowed SteamID64 IDs` to limit website access to those Steam accounts. Leave it empty to allow every Steam login. Existing installs can add the same IDs to `$Website_AllowedSteamIDs` in `config.php`.
+
 You ofc need a webhost to host the website.

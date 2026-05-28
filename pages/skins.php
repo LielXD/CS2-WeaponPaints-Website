@@ -8,6 +8,7 @@ if(!isset($_SESSION['steamid'])) {
     header('Location: '.GetPrefix());
     exit;
 }
+Website_RequireSteamIDAccess($_SESSION['steamid']);
 
 /************/
 /* Database */

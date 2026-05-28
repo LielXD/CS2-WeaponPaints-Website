@@ -45,6 +45,7 @@ if(!file_exists('./config.php')) {
 }
 
 include_once './config.php';
+include_once './imports/access.php';
 
 if($Website_Settings['language'] && isset($_COOKIE['cs2weaponpaints_lielxd_language'])
 && file_exists(realpath("./translation/".$_COOKIE['cs2weaponpaints_lielxd_language'].".json"))) {

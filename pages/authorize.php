@@ -10,40 +10,48 @@ if(!isset($SteamAPI_KEY) || empty($SteamAPI_KEY)) {
 }
 
 if(isset($_SESSION['steamid'])) {
-    header('Location: '.GetPrefix().'skins');
-    exit;
-}
-
-if(!empty($_GET['openid_claimed_id'])) {
-    $arr = explode('/', $_GET['openid_claimed_id']);
-    $steamid = $arr[count($arr)-1];
-
-    $_SESSION['steamid'] = $steamid;
+    Website_RequireSteamIDAccess($_SESSION['steamid']);
     header('Location: '.GetPrefix().'skins');
     exit;
 }
 
 try {
+    require_once 'imports/openid.php';
+
     $isHttps = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
     || (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https');
 
-    $url = $_SERVER['SERVER_NAME'];
     $protocol = $isHttps ? 'https' : 'http';
     $host = $_SERVER['HTTP_HOST'].GetPrefix();
 
-    $realm     = $protocol . '://' . $host;
-    $return_to = $realm . 'authorize';
+    $openid = new LightOpenID($host);
+    $openid->realm = $protocol . '://' . $host;
+    $openid->returnUrl = $protocol . '://' . $host . 'authorize';
+    $openid->identity = 'https://steamcommunity.com/openid';
 
-    $params = [
-        'openid.ns'         => 'http://specs.openid.net/auth/2.0',
-        'openid.mode'       => 'checkid_setup',
-        'openid.return_to'  => $return_to,
-        'openid.realm'      => $realm,
-        'openid.identity'   => 'http://specs.openid.net/auth/2.0/identifier_select',
-        'openid.claimed_id' => 'http://specs.openid.net/auth/2.0/identifier_select'
-    ];
+    if(!$openid->mode) {
+        header('Location: '.$openid->authUrl());
+        exit;
+    }
 
-    header('Location: https://steamcommunity.com/openid/login?' . http_build_query($params));
+    if($openid->mode == 'cancel') {
+        header('Location: '.GetPrefix());
+        exit;
+    }
+
+    if($openid->validate()) {
+        $steamid = Website_SteamIDFromOpenID($openid->identity);
+        if($steamid && Website_SteamIDAllowed($steamid)) {
+            $_SESSION['steamid'] = $steamid;
+            header('Location: '.GetPrefix().'skins');
+            exit;
+        }
+
+        Website_RequireSteamIDAccess($steamid);
+    }
+
+    $documentError_Code = 403;
+    include_once './errorpage.php';
 }catch(Exception $exception) {
     $documentError_Code = $exception->getCode();
     $documentError_Message = $exception->getMessage();
